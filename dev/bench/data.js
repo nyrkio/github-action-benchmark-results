@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739486886767,
+  "lastUpdate": 1739486891301,
   "entries": {
     "Rust Benchmark": [
       {
@@ -56615,6 +56615,44 @@ window.BENCHMARK_DATA = {
           {
             "name": "fib/20",
             "value": 41658,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "7e893b68bad26c39522e6955d523509bf12cc896",
+          "message": "Run all CI...",
+          "timestamp": "2025-02-14T00:46:27+02:00",
+          "tree_id": "e90638b3b08ab43bbeb0c52ce626cccdbd286711",
+          "url": "https://github.com/nyrkio/github-action-benchmark",
+          "repo": "nyrkio/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739486888488,
+        "tool": "julia",
+        "benches": [
+          {
+            "name": "fib/10",
+            "value": 351.8995983935743,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":249,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          },
+          {
+            "name": "fib/20",
+            "value": 44843,
             "unit": "ns",
             "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
           }

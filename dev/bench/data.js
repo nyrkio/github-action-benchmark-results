@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739483143827,
+  "lastUpdate": 1739483147287,
   "entries": {
     "Rust Benchmark": [
       {
@@ -41505,6 +41505,46 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000679470629115901",
             "extra": "mean: 1.6303613490258329 msec\nrounds: 616"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "881c27c8c93a364f250f0c2fad700aa5deb853ad",
+          "message": "Disable one more check\n\nTODO: Probably need to remain backward compatible with the url and\nuse something like commit.repoUrl for Nyrkiö.",
+          "timestamp": "2025-02-13T23:44:06+02:00",
+          "tree_id": "e90638b3b08ab43bbeb0c52ce626cccdbd286711",
+          "url": "https://github.com/nyrkio/github-action-benchmark",
+          "repo": "nyrkio/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739483143304,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 74067.37351141608,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000001185470338269613",
+            "extra": "mean: 13.501221288019197 usec\nrounds: 55421"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 606.3419808176193,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000013118154747711607",
+            "extra": "mean: 1.6492343127084061 msec\nrounds: 598"
           }
         ]
       }

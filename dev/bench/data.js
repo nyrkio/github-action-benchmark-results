@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733770408905,
+  "lastUpdate": 1739481440960,
   "entries": {
     "Rust Benchmark": [
       {
@@ -58685,6 +58685,38 @@ window.BENCHMARK_DATA = {
             "extra": "iterations: 3\nforks: 1\nthreads: 1"
           }
         ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "1f53324cd68b6d010b54c2ae55bdb28adc1d5d81",
+          "message": "Change all workflows to use nyrkio fork\n\nFor security reasons, to begin with...",
+          "timestamp": "2025-02-13T22:35:11+02:00",
+          "tree_id": "13695ae39a384722f7b547496bddd58b1d6ea73a",
+          "url": "https://github.com/nyrkio/github-action-benchmark",
+          "repo": "nyrkio/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739481439119,
+        "tool": "jmh",
+        "benches": [
+          {
+            "name": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "value": 1940779814.3112133,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1"
+          }
+        ]
       }
     ],
     "Criterion.rs Benchmark": [
@@ -59934,5 +59966,5 @@ window.BENCHMARK_DATA = {
       }
     ]
   },
-  "repoUrl": "https://github.com/benchmark-action/github-action-benchmark"
+  "repoUrl": "https://github.com/nyrkio/github-action-benchmark"
 }

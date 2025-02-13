@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739487474166,
+  "lastUpdate": 1739487575882,
   "entries": {
     "Rust Benchmark": [
       {
@@ -49107,6 +49107,44 @@ window.BENCHMARK_DATA = {
             "value": 20371.07555761773,
             "unit": "ns/iter",
             "extra": "iterations: 34477\ncpu: 20371.02126055051 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "7f38fc4881bf0c24d0ca4f38828b10f26292269b",
+          "message": "A few more nyrkio-enable missing from legacy tests",
+          "timestamp": "2025-02-14T00:58:06+02:00",
+          "tree_id": "9ffe5bcd113d974d12569eda34ac99e9a77a0e11",
+          "url": "https://github.com/nyrkio/github-action-benchmark",
+          "repo": "nyrkio/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739487573253,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 159.80565396588867,
+            "unit": "ns/iter",
+            "extra": "iterations: 4381597\ncpu: 159.8031265769079 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 19982.8110831944,
+            "unit": "ns/iter",
+            "extra": "iterations: 35026\ncpu: 19982.46730999829 ns\nthreads: 1"
           }
         ]
       }

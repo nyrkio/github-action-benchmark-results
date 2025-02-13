@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739482776448,
+  "lastUpdate": 1739482780373,
   "entries": {
     "Rust Benchmark": [
       {
@@ -33459,6 +33459,46 @@ window.BENCHMARK_DATA = {
             "range": "±0.86%",
             "unit": "ops/sec",
             "extra": "95 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "eb10ca11a83cff3608b67395252809cef12f2edb",
+          "message": "Workflows: Return after disabled throw.",
+          "timestamp": "2025-02-13T23:38:27+02:00",
+          "tree_id": "77adb2b3fd82077783699908d0d73f427770301f",
+          "url": "https://github.com/nyrkio/github-action-benchmark",
+          "repo": "nyrkio/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739482776520,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "fib(10)",
+            "value": 1638299,
+            "range": "±0.45%",
+            "unit": "ops/sec",
+            "extra": "98 samples"
+          },
+          {
+            "name": "fib(20)",
+            "value": 13317,
+            "range": "±0.38%",
+            "unit": "ops/sec",
+            "extra": "98 samples"
           }
         ]
       }

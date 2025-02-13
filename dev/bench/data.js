@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739488083285,
+  "lastUpdate": 1739488125767,
   "entries": {
     "Rust Benchmark": [
       {
@@ -64094,6 +64094,68 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci/Recursive/21",
             "value": 32537,
             "range": "± 342",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/21",
+            "value": 3,
+            "range": "± 0",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "9890420ece156c74f524637467f409bde41a85cc",
+          "message": "Fix typescript :-(",
+          "timestamp": "2025-02-14T01:06:17+02:00",
+          "tree_id": "ee70820bab6c8f5b3a5a2149bc3892078dcc9df9",
+          "url": "https://github.com/nyrkio/github-action-benchmark",
+          "repo": "nyrkio/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739488123242,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "BenchFib10",
+            "value": 209,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "BenchFib20",
+            "value": 20106,
+            "range": "± 2768",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/20",
+            "value": 20108,
+            "range": "± 370",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/20",
+            "value": 3,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/21",
+            "value": 32539,
+            "range": "± 43",
             "unit": "ns/iter"
           },
           {

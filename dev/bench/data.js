@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739482780373,
+  "lastUpdate": 1739482783942,
   "entries": {
     "Rust Benchmark": [
       {
@@ -47969,6 +47969,44 @@ window.BENCHMARK_DATA = {
             "value": 20135.56691317122,
             "unit": "ns/iter",
             "extra": "iterations: 35023\ncpu: 20135.273962824424 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "eb10ca11a83cff3608b67395252809cef12f2edb",
+          "message": "Workflows: Return after disabled throw.",
+          "timestamp": "2025-02-13T23:38:27+02:00",
+          "tree_id": "77adb2b3fd82077783699908d0d73f427770301f",
+          "url": "https://github.com/nyrkio/github-action-benchmark",
+          "repo": "nyrkio/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739482776016,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 158.6927688032967,
+            "unit": "ns/iter",
+            "extra": "iterations: 4420928\ncpu: 158.68593652735356 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 19966.51300054369,
+            "unit": "ns/iter",
+            "extra": "iterations: 35037\ncpu: 19966.25567257471 ns\nthreads: 1"
           }
         ]
       }

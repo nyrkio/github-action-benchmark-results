@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739482680978,
+  "lastUpdate": 1739482776448,
   "entries": {
     "Rust Benchmark": [
       {
@@ -41369,6 +41369,46 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00012583741344005079",
             "extra": "mean: 1.6837968862480537 msec\nrounds: 589"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "eb10ca11a83cff3608b67395252809cef12f2edb",
+          "message": "Workflows: Return after disabled throw.",
+          "timestamp": "2025-02-13T23:38:27+02:00",
+          "tree_id": "77adb2b3fd82077783699908d0d73f427770301f",
+          "url": "https://github.com/nyrkio/github-action-benchmark",
+          "repo": "nyrkio/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739482774533,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 74390.11229460026,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000010146256618290778",
+            "extra": "mean: 13.442646732939355 usec\nrounds: 39531"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 613.3609586595733,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000679470629115901",
+            "extra": "mean: 1.6303613490258329 msec\nrounds: 616"
           }
         ]
       }

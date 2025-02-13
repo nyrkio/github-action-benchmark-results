@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739482869911,
+  "lastUpdate": 1739483143827,
   "entries": {
     "Rust Benchmark": [
       {
@@ -48063,6 +48063,44 @@ window.BENCHMARK_DATA = {
             "value": 19966.51300054369,
             "unit": "ns/iter",
             "extra": "iterations: 35037\ncpu: 19966.25567257471 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "881c27c8c93a364f250f0c2fad700aa5deb853ad",
+          "message": "Disable one more check\n\nTODO: Probably need to remain backward compatible with the url and\nuse something like commit.repoUrl for Nyrkiö.",
+          "timestamp": "2025-02-13T23:44:06+02:00",
+          "tree_id": "e90638b3b08ab43bbeb0c52ce626cccdbd286711",
+          "url": "https://github.com/nyrkio/github-action-benchmark",
+          "repo": "nyrkio/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739483141981,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 159.69624421215647,
+            "unit": "ns/iter",
+            "extra": "iterations: 4409674\ncpu: 159.69482097769585 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 20176.178973217102,
+            "unit": "ns/iter",
+            "extra": "iterations: 35022\ncpu: 20175.818057221182 ns\nthreads: 1"
           }
         ]
       }

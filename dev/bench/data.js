@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739542424587,
+  "lastUpdate": 1739542427794,
   "entries": {
     "Rust Benchmark": [
       {
@@ -65273,6 +65273,46 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 19.9773,
             "range": "± 282.354",
+            "unit": "us",
+            "extra": "100 samples\n2 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "95a01502a3b475c38b3cd9aca8c0ad1b7ee830d9",
+          "message": "Fix: Don't send empty config object to user/config",
+          "timestamp": "2025-02-14T16:11:46+02:00",
+          "tree_id": "a23c4ae20bd858b8115f2408ab86593fd016818d",
+          "url": "https://github.com/nyrkio/github-action-benchmark",
+          "repo": "nyrkio/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739542420649,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 145.851,
+            "range": "± 2.98389",
+            "unit": "ns",
+            "extra": "100 samples\n197 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 19.9695,
+            "range": "± 265.071",
             "unit": "us",
             "extra": "100 samples\n2 iterations"
           }

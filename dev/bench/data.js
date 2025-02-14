@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739488125767,
+  "lastUpdate": 1739542379093,
   "entries": {
     "Rust Benchmark": [
       {
@@ -42729,6 +42729,46 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000012542062866689662",
             "extra": "mean: 1.6140465481243995 msec\nrounds: 613"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "95a01502a3b475c38b3cd9aca8c0ad1b7ee830d9",
+          "message": "Fix: Don't send empty config object to user/config",
+          "timestamp": "2025-02-14T16:11:46+02:00",
+          "tree_id": "a23c4ae20bd858b8115f2408ab86593fd016818d",
+          "url": "https://github.com/nyrkio/github-action-benchmark",
+          "repo": "nyrkio/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739542377076,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 75107.2749707713,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000010781535504971545",
+            "extra": "mean: 13.314289466488558 usec\nrounds: 40395"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 613.1279347100286,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000159873434602552",
+            "extra": "mean: 1.6309809802956339 msec\nrounds: 609"
           }
         ]
       }

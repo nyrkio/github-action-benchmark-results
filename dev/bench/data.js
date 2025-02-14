@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739542389519,
+  "lastUpdate": 1739542393221,
   "entries": {
     "Rust Benchmark": [
       {
@@ -24563,6 +24563,62 @@ window.BENCHMARK_DATA = {
             "value": 4,
             "unit": "auxMetricUnits",
             "extra": "30225 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "95a01502a3b475c38b3cd9aca8c0ad1b7ee830d9",
+          "message": "Fix: Don't send empty config object to user/config",
+          "timestamp": "2025-02-14T16:11:46+02:00",
+          "tree_id": "a23c4ae20bd858b8115f2408ab86593fd016818d",
+          "url": "https://github.com/nyrkio/github-action-benchmark",
+          "repo": "nyrkio/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739542388121,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkFib10",
+            "value": 312.6,
+            "unit": "ns/op",
+            "extra": "3847183 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20",
+            "value": 39830,
+            "unit": "ns/op",
+            "extra": "30186 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric",
+            "value": 39820,
+            "unit": "ns/op\t         4.000 auxMetricUnits",
+            "extra": "30304 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric - ns/op",
+            "value": 39820,
+            "unit": "ns/op",
+            "extra": "30304 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric - auxMetricUnits",
+            "value": 4,
+            "unit": "auxMetricUnits",
+            "extra": "30304 times\n4 procs"
           }
         ]
       }

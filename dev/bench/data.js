@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739542379093,
+  "lastUpdate": 1739542389519,
   "entries": {
     "Rust Benchmark": [
       {
@@ -49669,6 +49669,44 @@ window.BENCHMARK_DATA = {
             "value": 19978.043343919016,
             "unit": "ns/iter",
             "extra": "iterations: 34953\ncpu: 19977.93036363116 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "95a01502a3b475c38b3cd9aca8c0ad1b7ee830d9",
+          "message": "Fix: Don't send empty config object to user/config",
+          "timestamp": "2025-02-14T16:11:46+02:00",
+          "tree_id": "a23c4ae20bd858b8115f2408ab86593fd016818d",
+          "url": "https://github.com/nyrkio/github-action-benchmark",
+          "repo": "nyrkio/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739542386779,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 158.6230287345223,
+            "unit": "ns/iter",
+            "extra": "iterations: 4382464\ncpu: 158.62088085606635 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 19990.296466491447,
+            "unit": "ns/iter",
+            "extra": "iterations: 35036\ncpu: 19988.88857175478 ns\nthreads: 1"
           }
         ]
       }

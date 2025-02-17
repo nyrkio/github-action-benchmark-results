@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739836302141,
+  "lastUpdate": 1739836321960,
   "entries": {
     "Rust Benchmark": [
       {
@@ -49939,6 +49939,44 @@ window.BENCHMARK_DATA = {
             "value": 19990.296466491447,
             "unit": "ns/iter",
             "extra": "iterations: 35036\ncpu: 19988.88857175478 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "ee655c09b2e43a4b4dad24a4867a029579e1862f",
+          "message": "Add support for running anything under 'time' command\n\nLimbo project runs clickbench like this. And (unfortunately) this\nis a common way to implement simple benchmarks.",
+          "timestamp": "2025-02-18T01:47:31+02:00",
+          "tree_id": "aa32f59bb8017c34ec1959aed418adce24a00ccf",
+          "url": "https://github.com/henrikingo/github-action-benchmark",
+          "repo": "henrikingo/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739836319572,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 158.56035630403616,
+            "unit": "ns/iter",
+            "extra": "iterations: 4413085\ncpu: 158.55171608976488 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 20015.132969451144,
+            "unit": "ns/iter",
+            "extra": "iterations: 34993\ncpu: 20013.1054782385 ns\nthreads: 1"
           }
         ]
       }

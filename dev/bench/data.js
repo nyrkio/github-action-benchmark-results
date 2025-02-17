@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739836326922,
+  "lastUpdate": 1739836332059,
   "entries": {
     "Rust Benchmark": [
       {
@@ -65621,6 +65621,46 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 19.9695,
             "range": "± 265.071",
+            "unit": "us",
+            "extra": "100 samples\n2 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "ee655c09b2e43a4b4dad24a4867a029579e1862f",
+          "message": "Add support for running anything under 'time' command\n\nLimbo project runs clickbench like this. And (unfortunately) this\nis a common way to implement simple benchmarks.",
+          "timestamp": "2025-02-18T01:47:31+02:00",
+          "tree_id": "aa32f59bb8017c34ec1959aed418adce24a00ccf",
+          "url": "https://github.com/henrikingo/github-action-benchmark",
+          "repo": "henrikingo/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739836326328,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 145.767,
+            "range": "± 2.66832",
+            "unit": "ns",
+            "extra": "100 samples\n197 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 19.9818,
+            "range": "± 278.881",
             "unit": "us",
             "extra": "100 samples\n2 iterations"
           }

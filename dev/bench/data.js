@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739836290895,
+  "lastUpdate": 1739836295480,
   "entries": {
     "Rust Benchmark": [
       {
@@ -42921,6 +42921,46 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000159873434602552",
             "extra": "mean: 1.6309809802956339 msec\nrounds: 609"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "ee655c09b2e43a4b4dad24a4867a029579e1862f",
+          "message": "Add support for running anything under 'time' command\n\nLimbo project runs clickbench like this. And (unfortunately) this\nis a common way to implement simple benchmarks.",
+          "timestamp": "2025-02-18T01:47:31+02:00",
+          "tree_id": "aa32f59bb8017c34ec1959aed418adce24a00ccf",
+          "url": "https://github.com/henrikingo/github-action-benchmark",
+          "repo": "henrikingo/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739836293034,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 68978.06014162673,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000012171232978033122",
+            "extra": "mean: 14.4973633347587 usec\nrounds: 43098"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 561.88812014979,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001319323490601647",
+            "extra": "mean: 1.7797137261656586 msec\nrounds: 493"
           }
         ]
       }

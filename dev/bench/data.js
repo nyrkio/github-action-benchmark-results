@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739836381916,
+  "lastUpdate": 1739836419983,
   "entries": {
     "Rust Benchmark": [
       {
@@ -64858,6 +64858,68 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci/Recursive/21",
             "value": 36071,
             "range": "± 983",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/21",
+            "value": 4,
+            "range": "± 0",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "ee655c09b2e43a4b4dad24a4867a029579e1862f",
+          "message": "Add support for running anything under 'time' command\n\nLimbo project runs clickbench like this. And (unfortunately) this\nis a common way to implement simple benchmarks.",
+          "timestamp": "2025-02-18T01:47:31+02:00",
+          "tree_id": "aa32f59bb8017c34ec1959aed418adce24a00ccf",
+          "url": "https://github.com/henrikingo/github-action-benchmark",
+          "repo": "henrikingo/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739836417897,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "BenchFib10",
+            "value": 227,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "BenchFib20",
+            "value": 24862,
+            "range": "± 3080",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/20",
+            "value": 22304,
+            "range": "± 740",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/20",
+            "value": 3,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/21",
+            "value": 36091,
+            "range": "± 148",
             "unit": "ns/iter"
           },
           {

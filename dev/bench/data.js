@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739869319932,
+  "lastUpdate": 1739869324642,
   "entries": {
     "Rust Benchmark": [
       {
@@ -68071,6 +68071,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "value": 1938533066.752369,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "1539f1fa63bba46e7f9d8e75477b4ee27e3f817f",
+          "message": "Debug the parsing",
+          "timestamp": "2025-02-18T11:00:23+02:00",
+          "tree_id": "7ad00a9978e7483cb68905f4179ad0b9bee1e416",
+          "url": "https://github.com/henrikingo/github-action-benchmark",
+          "repo": "henrikingo/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739869319272,
+        "tool": "jmh",
+        "benches": [
+          {
+            "name": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "value": 1937380187.743521,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1"
           }

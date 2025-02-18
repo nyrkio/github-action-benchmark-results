@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739842273887,
+  "lastUpdate": 1739842278334,
   "entries": {
     "Rust Benchmark": [
       {
@@ -43137,6 +43137,46 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000010703221712442771",
             "extra": "mean: 1.6496365481729212 msec\nrounds: 602"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "4ed5f4ff46718f3f6b026dd4287b0f98d08ced84",
+          "message": "Fix write.ts",
+          "timestamp": "2025-02-18T03:30:24+02:00",
+          "tree_id": "9dcb975f71cca89b98bb6f279535e8a62e53a4e7",
+          "url": "https://github.com/henrikingo/github-action-benchmark",
+          "repo": "henrikingo/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739842275100,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 75788.43513257323,
+            "unit": "iter/sec",
+            "range": "stddev: 9.860714807391509e-7",
+            "extra": "mean: 13.1946252518705 usec\nrounds: 55085"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 622.18235719563,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003288294018185259",
+            "extra": "mean: 1.6072458314429101 msec\nrounds: 617"
           }
         ]
       }

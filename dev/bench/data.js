@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739843273501,
+  "lastUpdate": 1739843282035,
   "entries": {
     "Rust Benchmark": [
       {
@@ -34859,6 +34859,46 @@ window.BENCHMARK_DATA = {
             "range": "±0.33%",
             "unit": "ops/sec",
             "extra": "98 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "27f09d17eff4426f952c7efcfd3ac89dd7dfeb01",
+          "message": "Limit testName to 50 chars",
+          "timestamp": "2025-02-18T03:45:27+02:00",
+          "tree_id": "944fd174a8ffa98940d5abae6900b1a95bd032d0",
+          "url": "https://github.com/henrikingo/github-action-benchmark",
+          "repo": "henrikingo/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739843279501,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "fib(10)",
+            "value": 1621079,
+            "range": "±0.81%",
+            "unit": "ops/sec",
+            "extra": "98 samples"
+          },
+          {
+            "name": "fib(20)",
+            "value": 13249,
+            "range": "±0.20%",
+            "unit": "ops/sec",
+            "extra": "99 samples"
           }
         ]
       }

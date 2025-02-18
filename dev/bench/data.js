@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739855235663,
+  "lastUpdate": 1739855280387,
   "entries": {
     "Rust Benchmark": [
       {
@@ -68678,6 +68678,68 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci/Recursive/21",
             "value": 30566,
             "range": "± 58",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/21",
+            "value": 4,
+            "range": "± 0",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "a8d5d2ac8496b0ea1005f9c46788a95bdabd3e8e",
+          "message": "debug",
+          "timestamp": "2025-02-18T07:05:03+02:00",
+          "tree_id": "76aa25ca4aa51b819b020c6965d0d3c778b04399",
+          "url": "https://github.com/henrikingo/github-action-benchmark",
+          "repo": "henrikingo/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739855277744,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "BenchFib10",
+            "value": 149,
+            "range": "± 22",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "BenchFib20",
+            "value": 18894,
+            "range": "± 236",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/20",
+            "value": 18909,
+            "range": "± 1358",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/20",
+            "value": 3,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/21",
+            "value": 30567,
+            "range": "± 113",
             "unit": "ns/iter"
           },
           {

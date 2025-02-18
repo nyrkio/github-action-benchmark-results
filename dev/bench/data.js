@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739846315027,
+  "lastUpdate": 1739846328145,
   "entries": {
     "Rust Benchmark": [
       {
@@ -50635,6 +50635,44 @@ window.BENCHMARK_DATA = {
             "value": 20021.231346115434,
             "unit": "ns/iter",
             "extra": "iterations: 34269\ncpu: 20020.735942105108 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "5bddd1ae3afc44a4d72c0744b63fef9a931471b1",
+          "message": "debug",
+          "timestamp": "2025-02-18T04:36:25+02:00",
+          "tree_id": "7463e59c40939e4fea4e5d40c2b02484d51f4a16",
+          "url": "https://github.com/henrikingo/github-action-benchmark",
+          "repo": "henrikingo/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739846325945,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 159.58865300455176,
+            "unit": "ns/iter",
+            "extra": "iterations: 4413274\ncpu: 159.57781003400197 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 20012.487393272895,
+            "unit": "ns/iter",
+            "extra": "iterations: 34902\ncpu: 20011.83313277176 ns\nthreads: 1"
           }
         ]
       }

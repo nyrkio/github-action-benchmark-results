@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739840523355,
+  "lastUpdate": 1739840549527,
   "entries": {
     "Rust Benchmark": [
       {
@@ -34611,6 +34611,46 @@ window.BENCHMARK_DATA = {
             "range": "±0.92%",
             "unit": "ops/sec",
             "extra": "97 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "0de2eb611777c88343499903ceef2343c67001f4",
+          "message": "Fix Typescript errors",
+          "timestamp": "2025-02-18T03:00:32+02:00",
+          "tree_id": "5139beaa171cbf326f7c5c1ed03318e86d1737db",
+          "url": "https://github.com/henrikingo/github-action-benchmark",
+          "repo": "henrikingo/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739840547175,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "fib(10)",
+            "value": 1646783,
+            "range": "±0.36%",
+            "unit": "ops/sec",
+            "extra": "95 samples"
+          },
+          {
+            "name": "fib(20)",
+            "value": 13313,
+            "range": "±0.66%",
+            "unit": "ops/sec",
+            "extra": "96 samples"
           }
         ]
       }

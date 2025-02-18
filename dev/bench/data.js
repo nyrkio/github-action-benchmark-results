@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739869402974,
+  "lastUpdate": 1739869451187,
   "entries": {
     "Rust Benchmark": [
       {
@@ -70970,6 +70970,68 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci/Recursive/21",
             "value": 30592,
             "range": "± 142",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/21",
+            "value": 4,
+            "range": "± 0",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "1539f1fa63bba46e7f9d8e75477b4ee27e3f817f",
+          "message": "Debug the parsing",
+          "timestamp": "2025-02-18T11:00:23+02:00",
+          "tree_id": "7ad00a9978e7483cb68905f4179ad0b9bee1e416",
+          "url": "https://github.com/henrikingo/github-action-benchmark",
+          "repo": "henrikingo/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1739869448638,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "BenchFib10",
+            "value": 199,
+            "range": "± 24",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "BenchFib20",
+            "value": 19752,
+            "range": "± 3164",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/20",
+            "value": 18903,
+            "range": "± 428",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/20",
+            "value": 3,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/21",
+            "value": 30576,
+            "range": "± 56",
             "unit": "ns/iter"
           },
           {

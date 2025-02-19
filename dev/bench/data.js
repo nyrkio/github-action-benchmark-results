@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740008318117,
+  "lastUpdate": 1740008323554,
   "entries": {
     "Rust Benchmark": [
       {
@@ -54407,6 +54407,44 @@ window.BENCHMARK_DATA = {
             "value": 19983.616888305107,
             "unit": "ns/iter",
             "extra": "iterations: 35042\ncpu: 19983.47982421095 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3f7266a9f4ec9cb6a972892582a03a203642ae2f",
+          "message": "Merge pull request #1 from henrikingo/unit\n\nUnit",
+          "timestamp": "2025-02-20T01:37:53+02:00",
+          "tree_id": "14644390a43558bfa51f900214570e027566e826",
+          "url": "https://github.com/henrikingo/github-action-benchmark",
+          "repo": "henrikingo/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1740008313804,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 158.8994103085282,
+            "unit": "ns/iter",
+            "extra": "iterations: 4384157\ncpu: 158.8979363649614 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 20000.05494379452,
+            "unit": "ns/iter",
+            "extra": "iterations: 34872\ncpu: 19999.67882541868 ns\nthreads: 1"
           }
         ]
       }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740008328413,
+  "lastUpdate": 1740008334436,
   "entries": {
     "Rust Benchmark": [
       {
@@ -60887,6 +60887,46 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 19.9953,
             "range": "± 384.931",
+            "unit": "us",
+            "extra": "100 samples\n2 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3f7266a9f4ec9cb6a972892582a03a203642ae2f",
+          "message": "Merge pull request #1 from henrikingo/unit\n\nUnit",
+          "timestamp": "2025-02-20T01:37:53+02:00",
+          "tree_id": "14644390a43558bfa51f900214570e027566e826",
+          "url": "https://github.com/henrikingo/github-action-benchmark",
+          "repo": "henrikingo/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1740008323828,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 145.237,
+            "range": "± 0.576826",
+            "unit": "ns",
+            "extra": "100 samples\n198 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 19.9921,
+            "range": "± 273.216",
             "unit": "us",
             "extra": "100 samples\n2 iterations"
           }

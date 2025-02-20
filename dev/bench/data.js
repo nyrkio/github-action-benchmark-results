@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740008448905,
+  "lastUpdate": 1740034497506,
   "entries": {
     "Rust Benchmark": [
       {
@@ -37107,6 +37107,46 @@ window.BENCHMARK_DATA = {
             "range": "±0.16%",
             "unit": "ops/sec",
             "extra": "99 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": false,
+          "id": "f63ace964afcbf0e1acd8f2bf16c33c3fb48f45f",
+          "message": "One more kikapo",
+          "timestamp": "2025-02-20T08:37:19+02:00",
+          "tree_id": "7933d7ecbba23fd2e1385a227304f04bfe41996b",
+          "url": "https://github.com/nyrkio/github-action-benchmark",
+          "repo": "nyrkio/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1740034494030,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "fib(10)",
+            "value": 1640850,
+            "range": "±0.42%",
+            "unit": "ops/sec",
+            "extra": "94 samples"
+          },
+          {
+            "name": "fib(20)",
+            "value": 11639,
+            "range": "±0.38%",
+            "unit": "ops/sec",
+            "extra": "87 samples"
           }
         ]
       }
@@ -76808,5 +76848,5 @@ window.BENCHMARK_DATA = {
       }
     ]
   },
-  "repoUrl": "https://github.com/henrikingo/github-action-benchmark"
+  "repoUrl": "https://github.com/nyrkio/github-action-benchmark"
 }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741136232369,
+  "lastUpdate": 1741136240814,
   "entries": {
     "Rust Benchmark": [
       {
@@ -55293,6 +55293,44 @@ window.BENCHMARK_DATA = {
             "value": 20342.30014543333,
             "unit": "ns/iter",
             "extra": "iterations: 34380\ncpu: 20341.81210005817 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "58cdea7cd59703e6b62ecbd6f970a13e90313624",
+          "message": "fix: NyrkioResultSorter wasn't always called if testName needed to be sanitized for URI",
+          "timestamp": "2025-03-05T02:17:40+02:00",
+          "tree_id": "0f543c3599823f89eca773457f910e5904c2a3d4",
+          "url": "https://github.com/nyrkio/github-action-benchmark",
+          "repo": "nyrkio/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1741136233003,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 158.7169151926987,
+            "unit": "ns/iter",
+            "extra": "iterations: 4402557\ncpu: 158.71113082692625 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 19982.47964111284,
+            "unit": "ns/iter",
+            "extra": "iterations: 34997\ncpu: 19982.041317827247 ns\nthreads: 1"
           }
         ]
       }

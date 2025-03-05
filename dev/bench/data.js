@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741136261312,
+  "lastUpdate": 1741136267664,
   "entries": {
     "Rust Benchmark": [
       {
@@ -47177,6 +47177,46 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00010996771234219337",
             "extra": "mean: 1.6722956087661318 msec\nrounds: 616"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "58cdea7cd59703e6b62ecbd6f970a13e90313624",
+          "message": "fix: NyrkioResultSorter wasn't always called if testName needed to be sanitized for URI",
+          "timestamp": "2025-03-05T02:17:40+02:00",
+          "tree_id": "0f543c3599823f89eca773457f910e5904c2a3d4",
+          "url": "https://github.com/nyrkio/github-action-benchmark",
+          "repo": "nyrkio/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1741136257096,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 74885.46620666882,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000011267520743190633",
+            "extra": "mean: 13.353726038644151 usec\nrounds: 44342"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 599.4592426529961,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001964825294954572",
+            "extra": "mean: 1.6681701254189547 msec\nrounds: 598"
           }
         ]
       }

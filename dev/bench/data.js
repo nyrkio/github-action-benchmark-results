@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740036238627,
+  "lastUpdate": 1741134004265,
   "entries": {
     "Rust Benchmark": [
       {
@@ -54851,6 +54851,44 @@ window.BENCHMARK_DATA = {
             "extra": "iterations: 34856\ncpu: 20421.508492081706 ns\nthreads: 1"
           }
         ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "b27056144be23ea2c80fbfec7d4b301eccb47903",
+          "message": "Change nyrkio.ts so that url is commit and repoUrl... you know.",
+          "timestamp": "2025-02-20T09:21:11+02:00",
+          "tree_id": "7933d7ecbba23fd2e1385a227304f04bfe41996b",
+          "url": "https://github.com/henrikingo/github-action-benchmark",
+          "repo": "henrikingo/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1741134001269,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 158.91079968372676,
+            "unit": "ns/iter",
+            "extra": "iterations: 4401240\ncpu: 158.89865128918214 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 19987.65648920645,
+            "unit": "ns/iter",
+            "extra": "iterations: 34881\ncpu: 19987.38281585964 ns\nthreads: 1"
+          }
+        ]
       }
     ],
     "Catch2 Benchmark": [
@@ -77652,5 +77690,5 @@ window.BENCHMARK_DATA = {
       }
     ]
   },
-  "repoUrl": "https://github.com/nyrkio/github-action-benchmark"
+  "repoUrl": "https://github.com/henrikingo/github-action-benchmark"
 }

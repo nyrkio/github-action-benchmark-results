@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741134004265,
+  "lastUpdate": 1741134008948,
   "entries": {
     "Rust Benchmark": [
       {
@@ -46809,6 +46809,46 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000023722510031591936",
             "extra": "mean: 1.6452172082637395 msec\nrounds: 605"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "b27056144be23ea2c80fbfec7d4b301eccb47903",
+          "message": "Change nyrkio.ts so that url is commit and repoUrl... you know.",
+          "timestamp": "2025-02-20T09:21:11+02:00",
+          "tree_id": "7933d7ecbba23fd2e1385a227304f04bfe41996b",
+          "url": "https://github.com/henrikingo/github-action-benchmark",
+          "repo": "henrikingo/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1741134002635,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 74763.4054481397,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000010654589726133053",
+            "extra": "mean: 13.375527693072499 usec\nrounds: 36074"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 610.7564393639323,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00012203237370199857",
+            "extra": "mean: 1.6373138874171225 msec\nrounds: 604"
           }
         ]
       }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741134637183,
+  "lastUpdate": 1741134642213,
   "entries": {
     "Rust Benchmark": [
       {
@@ -46985,6 +46985,46 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00012203237370199857",
             "extra": "mean: 1.6373138874171225 msec\nrounds: 604"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ff95b09c991ec1518b9ae48b126a90857c459747",
+          "message": "Merge pull request #2 from henrikingo/myfork-master\n\nMyfork master",
+          "timestamp": "2025-03-05T02:29:26+02:00",
+          "tree_id": "0f543c3599823f89eca773457f910e5904c2a3d4",
+          "url": "https://github.com/henrikingo/github-action-benchmark",
+          "repo": "henrikingo/github-action-benchmark",
+          "branch": "master"
+        },
+        "date": 1741134630293,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 73573.7605313244,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000001525563093445595",
+            "extra": "mean: 13.591802196575841 usec\nrounds: 50899"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 597.9804017651096,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010996771234219337",
+            "extra": "mean: 1.6722956087661318 msec\nrounds: 616"
           }
         ]
       }

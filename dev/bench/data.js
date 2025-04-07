@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741136313247,
+  "lastUpdate": 1743992670298,
   "entries": {
     "Rust Benchmark": [
       {
@@ -47219,6 +47219,44 @@ window.BENCHMARK_DATA = {
             "extra": "mean: 1.6681701254189547 msec\nrounds: 598"
           }
         ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "094f9fba91b801c34fdf56a024c2de5d3f091570",
+          "message": "Empty commit to trigger workflows",
+          "timestamp": "2025-04-07T05:23:29+03:00",
+          "tree_id": "8c0abab458fdb85fff48317bcb99ba95b8fe4fb1",
+          "url": "https://github.com/nyrkio/change-detection/commit/094f9fba91b801c34fdf56a024c2de5d3f091570"
+        },
+        "date": 1743992666637,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 73316.7600402997,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000011689851528055953",
+            "extra": "mean: 13.63944614369667 usec\nrounds: 43876"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 580.7221611490828,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000020236074236413113",
+            "extra": "mean: 1.7219938671210455 msec\nrounds: 587"
+          }
+        ]
       }
     ],
     "C++ Benchmark": [
@@ -78918,5 +78956,5 @@ window.BENCHMARK_DATA = {
       }
     ]
   },
-  "repoUrl": "https://github.com/nyrkio/github-action-benchmark"
+  "repoUrl": "https://github.com/nyrkio/change-detection"
 }

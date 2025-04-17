@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744863656839,
+  "lastUpdate": 1744863666871,
   "entries": {
     "Rust Benchmark": [
       {
@@ -92101,6 +92101,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "value": 1972006722.9212105,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "28fb0e4293e469ac61cae19b9e38bd50d157fd8f",
+          "message": "ubuntu-20.04 stopped working, move to -latest and see what happen",
+          "timestamp": "2025-04-17T07:18:53+03:00",
+          "tree_id": "9c9c18602c93cd3233969872218b99686435b165",
+          "url": "https://github.com/nyrkio/change-detection/commit/28fb0e4293e469ac61cae19b9e38bd50d157fd8f"
+        },
+        "date": 1744863648093,
+        "tool": "jmh",
+        "benches": [
+          {
+            "name": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "value": 1966913492.7104084,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1"
           }

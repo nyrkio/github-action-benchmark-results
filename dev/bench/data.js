@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748466267741,
+  "lastUpdate": 1748466278011,
   "entries": {
     "Rust Benchmark": [
       {
@@ -68854,6 +68854,45 @@ window.BENCHMARK_DATA = {
             "value": 22328.304764634726,
             "unit": "ns/iter",
             "extra": "iterations: 31398\ncpu: 22327.038378240653 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "dc41e781aebcc138449b67c6d62528818feaa1b3",
+          "message": "Add more error message when payload is of bad format",
+          "timestamp": "2025-05-29T00:03:01+03:00",
+          "tree_id": "6511e68c572109126b1b16f588b8aedfea798d96",
+          "url": "https://github.com/nyrkio/change-detection/commit/dc41e781aebcc138449b67c6d62528818feaa1b3",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748466263279,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 177.1377625593524,
+            "unit": "ns/iter",
+            "extra": "iterations: 3951059\ncpu: 177.1205729906843 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 22297.81163443702,
+            "unit": "ns/iter",
+            "extra": "iterations: 31338\ncpu: 22292.903567553763 ns\nthreads: 1"
           }
         ]
       }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748464488817,
+  "lastUpdate": 1748464512956,
   "entries": {
     "Rust Benchmark": [
       {
@@ -105848,6 +105848,69 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci/Recursive/21",
             "value": 30569,
             "range": "± 111",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/21",
+            "value": 3,
+            "range": "± 0",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "9ec9c2efbaf24355e27996de6b0c1edebc8fbdd9",
+          "message": "gotpc: Fix parsing logic for unit tests",
+          "timestamp": "2025-05-28T23:32:30+03:00",
+          "tree_id": "a4aa5c77c038f2c5d662a96ffcc56aeebd7324c8",
+          "url": "https://github.com/nyrkio/change-detection/commit/9ec9c2efbaf24355e27996de6b0c1edebc8fbdd9",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748464505896,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "BenchFib10",
+            "value": 149,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "BenchFib20",
+            "value": 18894,
+            "range": "± 193",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/20",
+            "value": 18887,
+            "range": "± 452",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/20",
+            "value": 3,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/21",
+            "value": 30559,
+            "range": "± 339",
             "unit": "ns/iter"
           },
           {

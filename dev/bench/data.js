@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748467146239,
+  "lastUpdate": 1748467155845,
   "entries": {
     "Rust Benchmark": [
       {
@@ -99740,6 +99740,40 @@ window.BENCHMARK_DATA = {
             "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "name": "thrpt",
             "value": 1972068146.5089977,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "191e780724464ca88a02bdcfaa93d524251fb753",
+          "message": "gotpc.yaml: Add a distinguishable name",
+          "timestamp": "2025-05-29T00:16:59+03:00",
+          "tree_id": "44d8ab52e0d73f01482de19583ed7b0aba03a5b4",
+          "url": "https://github.com/nyrkio/change-detection/commit/191e780724464ca88a02bdcfaa93d524251fb753",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748467127270,
+        "tool": "jmh",
+        "benches": [
+          {
+            "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "name": "thrpt",
+            "value": 1951611182.6542308,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
           }

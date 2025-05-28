@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748460994947,
+  "lastUpdate": 1748461004220,
   "entries": {
     "Rust Benchmark": [
       {
@@ -95768,6 +95768,40 @@ window.BENCHMARK_DATA = {
             "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "name": "thrpt",
             "value": 1968150766.730127,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "b9c70d12f951a0b5493279d0e61ca31a0ac957fb",
+          "message": "Update unit test snapshots due to jmh changes",
+          "timestamp": "2025-05-28T22:34:35+03:00",
+          "tree_id": "1db0cb1fc2061466738e47ac891f5bb27aafe127",
+          "url": "https://github.com/nyrkio/change-detection/commit/b9c70d12f951a0b5493279d0e61ca31a0ac957fb",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748460980780,
+        "tool": "jmh",
+        "benches": [
+          {
+            "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "name": "thrpt",
+            "value": 1964708345.786287,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
           }

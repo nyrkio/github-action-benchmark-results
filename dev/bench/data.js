@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748462336210,
+  "lastUpdate": 1748462345314,
   "entries": {
     "Rust Benchmark": [
       {
@@ -96722,6 +96722,40 @@ window.BENCHMARK_DATA = {
             "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "name": "thrpt",
             "value": 1965168632.2951567,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "b679dad8817289c5d6eee1855185ad8f59bcf5fc",
+          "message": "gotpc: Default to tpm so that we always provide a unit",
+          "timestamp": "2025-05-28T22:56:57+03:00",
+          "tree_id": "67f5b4ae20e47891f9b8c3180959d242bfc27782",
+          "url": "https://github.com/nyrkio/change-detection/commit/b679dad8817289c5d6eee1855185ad8f59bcf5fc",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748462323220,
+        "tool": "jmh",
+        "benches": [
+          {
+            "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "name": "thrpt",
+            "value": 1968273797.6050942,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
           }

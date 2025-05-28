@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748460371781,
+  "lastUpdate": 1748460380284,
   "entries": {
     "Rust Benchmark": [
       {
@@ -108375,6 +108375,47 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 7.79465,
             "range": "± 443.826",
+            "unit": "us",
+            "extra": "100 samples\n4 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "d9cdbf6fdf18023f54fd0d50b592faed54e0cec7",
+          "message": "gotpc fixes: Handle multiple lines of json output",
+          "timestamp": "2025-05-28T22:24:01+03:00",
+          "tree_id": "31009a226ef580ea3b3f0d75a8f106a6e5255699",
+          "url": "https://github.com/nyrkio/change-detection/commit/d9cdbf6fdf18023f54fd0d50b592faed54e0cec7",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748460343522,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 79.9287,
+            "range": "± 3.14763",
+            "unit": "ns",
+            "extra": "100 samples\n364 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 7.76186,
+            "range": "± 335.405",
             "unit": "us",
             "extra": "100 samples\n4 iterations"
           }

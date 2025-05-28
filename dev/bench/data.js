@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748460362697,
+  "lastUpdate": 1748460371781,
   "entries": {
     "Rust Benchmark": [
       {
@@ -95437,6 +95437,40 @@ window.BENCHMARK_DATA = {
             "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "name": "thrpt",
             "value": 1967463198.1733904,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "d9cdbf6fdf18023f54fd0d50b592faed54e0cec7",
+          "message": "gotpc fixes: Handle multiple lines of json output",
+          "timestamp": "2025-05-28T22:24:01+03:00",
+          "tree_id": "31009a226ef580ea3b3f0d75a8f106a6e5255699",
+          "url": "https://github.com/nyrkio/change-detection/commit/d9cdbf6fdf18023f54fd0d50b592faed54e0cec7",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748460343213,
+        "tool": "jmh",
+        "benches": [
+          {
+            "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "name": "thrpt",
+            "value": 1968150766.730127,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
           }

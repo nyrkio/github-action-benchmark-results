@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748465426536,
+  "lastUpdate": 1748465448427,
   "entries": {
     "Rust Benchmark": [
       {
@@ -106636,6 +106636,69 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci/Recursive/21",
             "value": 30566,
             "range": "± 130",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/21",
+            "value": 3,
+            "range": "± 0",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "45911e09d9a72d3e86635fd9ae99613c85748b01",
+          "message": "gotpc: operation won't always exist",
+          "timestamp": "2025-05-28T23:48:09+03:00",
+          "tree_id": "38850c464f55454706ba9a7649628026253168df",
+          "url": "https://github.com/nyrkio/change-detection/commit/45911e09d9a72d3e86635fd9ae99613c85748b01",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748465441463,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "BenchFib10",
+            "value": 149,
+            "range": "± 1",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "BenchFib20",
+            "value": 25209,
+            "range": "± 44",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/20",
+            "value": 18888,
+            "range": "± 463",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/20",
+            "value": 3,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/21",
+            "value": 30566,
+            "range": "± 63",
             "unit": "ns/iter"
           },
           {

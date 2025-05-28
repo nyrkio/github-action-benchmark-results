@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748466433466,
+  "lastUpdate": 1748466442868,
   "entries": {
     "Rust Benchmark": [
       {
@@ -86246,6 +86246,45 @@ window.BENCHMARK_DATA = {
           {
             "name": "fib/10",
             "value": 325.6666666666667,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":261,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          },
+          {
+            "name": "fib/20",
+            "value": 41638,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "9de362f293ad71c911893c3241775a3d90e450c8",
+          "message": "Zoom in on errors",
+          "timestamp": "2025-05-29T00:05:04+03:00",
+          "tree_id": "c103478eeff963d322c2f33ee1f026f7a1dd2470",
+          "url": "https://github.com/nyrkio/change-detection/commit/9de362f293ad71c911893c3241775a3d90e450c8",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748466401194,
+        "tool": "julia",
+        "benches": [
+          {
+            "name": "fib/10",
+            "value": 299.40996168582376,
             "unit": "ns",
             "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":261,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
           },

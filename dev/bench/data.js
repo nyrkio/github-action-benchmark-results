@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748460940317,
+  "lastUpdate": 1748460949694,
   "entries": {
     "Rust Benchmark": [
       {
@@ -56775,6 +56775,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000040117152932626716",
             "extra": "mean: 1.6509213133309686 msec\nrounds: 600"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "b9c70d12f951a0b5493279d0e61ca31a0ac957fb",
+          "message": "Update unit test snapshots due to jmh changes",
+          "timestamp": "2025-05-28T22:34:35+03:00",
+          "tree_id": "1db0cb1fc2061466738e47ac891f5bb27aafe127",
+          "url": "https://github.com/nyrkio/change-detection/commit/b9c70d12f951a0b5493279d0e61ca31a0ac957fb",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748460936310,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 76827.79226465899,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000010704957030383873",
+            "extra": "mean: 13.016123078939534 usec\nrounds: 54396"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 606.1831940808452,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000020682950203856522",
+            "extra": "mean: 1.6496663216081053 msec\nrounds: 597"
           }
         ]
       }

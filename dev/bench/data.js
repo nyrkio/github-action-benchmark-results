@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748464425853,
+  "lastUpdate": 1748464436775,
   "entries": {
     "Rust Benchmark": [
       {
@@ -57511,6 +57511,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000651336976313296",
             "extra": "mean: 1.5971333716671647 msec\nrounds: 600"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "9ec9c2efbaf24355e27996de6b0c1edebc8fbdd9",
+          "message": "gotpc: Fix parsing logic for unit tests",
+          "timestamp": "2025-05-28T23:32:30+03:00",
+          "tree_id": "a4aa5c77c038f2c5d662a96ffcc56aeebd7324c8",
+          "url": "https://github.com/nyrkio/change-detection/commit/9ec9c2efbaf24355e27996de6b0c1edebc8fbdd9",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748464422470,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 76807.78743251401,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000011365822251411712",
+            "extra": "mean: 13.019513169528995 usec\nrounds: 39751"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 605.2561619662304,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006820810062348262",
+            "extra": "mean: 1.6521930099008126 msec\nrounds: 606"
           }
         ]
       }

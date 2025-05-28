@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748460977210,
+  "lastUpdate": 1748460986667,
   "entries": {
     "Rust Benchmark": [
       {
@@ -83930,6 +83930,45 @@ window.BENCHMARK_DATA = {
           {
             "name": "fib/20",
             "value": 44843,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "b9c70d12f951a0b5493279d0e61ca31a0ac957fb",
+          "message": "Update unit test snapshots due to jmh changes",
+          "timestamp": "2025-05-28T22:34:35+03:00",
+          "tree_id": "1db0cb1fc2061466738e47ac891f5bb27aafe127",
+          "url": "https://github.com/nyrkio/change-detection/commit/b9c70d12f951a0b5493279d0e61ca31a0ac957fb",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748460973189,
+        "tool": "julia",
+        "benches": [
+          {
+            "name": "fib/10",
+            "value": 352.1570881226054,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":261,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          },
+          {
+            "name": "fib/20",
+            "value": 44814,
             "unit": "ns",
             "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
           }

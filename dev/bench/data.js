@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748468058058,
+  "lastUpdate": 1748468066258,
   "entries": {
     "Rust Benchmark": [
       {
@@ -58901,6 +58901,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000010332590423680874",
             "extra": "mean: 1.6461019333329339 msec\nrounds: 600"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "ebd1da91c9036683243f84044bdaeb602ecc3456",
+          "message": "Go TPC: Check for empty rows",
+          "timestamp": "2025-05-29T00:33:11+03:00",
+          "tree_id": "3a9b40aff96bec6339ababa901f0f9387af72a3c",
+          "url": "https://github.com/nyrkio/change-detection/commit/ebd1da91c9036683243f84044bdaeb602ecc3456",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748468059221,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 77192.34561648511,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000010052544623903851",
+            "extra": "mean: 12.95465233001601 usec\nrounds: 57661"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 622.3215282672159,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001732868320939183",
+            "extra": "mean: 1.6068863996789366 msec\nrounds: 623"
           }
         ]
       }

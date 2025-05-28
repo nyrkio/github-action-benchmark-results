@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748460354208,
+  "lastUpdate": 1748460362697,
   "entries": {
     "Rust Benchmark": [
       {
@@ -90165,6 +90165,45 @@ window.BENCHMARK_DATA = {
             "value": 42.966031691857744,
             "unit": "ns",
             "range": "± 0.03993800182286298"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "d9cdbf6fdf18023f54fd0d50b592faed54e0cec7",
+          "message": "gotpc fixes: Handle multiple lines of json output",
+          "timestamp": "2025-05-28T22:24:01+03:00",
+          "tree_id": "31009a226ef580ea3b3f0d75a8f106a6e5255699",
+          "url": "https://github.com/nyrkio/change-detection/commit/d9cdbf6fdf18023f54fd0d50b592faed54e0cec7",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748460349225,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Sample.Benchmarks.Fib10",
+            "value": 21.95769597887993,
+            "unit": "ns",
+            "range": "± 0.07606795179368196"
+          },
+          {
+            "name": "Sample.Benchmarks.Fib20",
+            "value": 42.96316973765691,
+            "unit": "ns",
+            "range": "± 0.06807079983976332"
           }
         ]
       }

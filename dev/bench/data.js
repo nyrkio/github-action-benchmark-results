@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748460315532,
+  "lastUpdate": 1748460323513,
   "entries": {
     "Rust Benchmark": [
       {
@@ -56677,6 +56677,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00002024274218278715",
             "extra": "mean: 1.6269851204623347 msec\nrounds: 606"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "d9cdbf6fdf18023f54fd0d50b592faed54e0cec7",
+          "message": "gotpc fixes: Handle multiple lines of json output",
+          "timestamp": "2025-05-28T22:24:01+03:00",
+          "tree_id": "31009a226ef580ea3b3f0d75a8f106a6e5255699",
+          "url": "https://github.com/nyrkio/change-detection/commit/d9cdbf6fdf18023f54fd0d50b592faed54e0cec7",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748460302481,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 77307.23032296506,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000010976865246062618",
+            "extra": "mean: 12.935400684028098 usec\nrounds: 45023"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 605.7223878116624,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000040117152932626716",
+            "extra": "mean: 1.6509213133309686 msec\nrounds: 600"
           }
         ]
       }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748464445881,
+  "lastUpdate": 1748464454250,
   "entries": {
     "Rust Benchmark": [
       {
@@ -78112,6 +78112,47 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 7.49463,
             "range": "± 352.528",
+            "unit": "us",
+            "extra": "100 samples\n4 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "9ec9c2efbaf24355e27996de6b0c1edebc8fbdd9",
+          "message": "gotpc: Fix parsing logic for unit tests",
+          "timestamp": "2025-05-28T23:32:30+03:00",
+          "tree_id": "a4aa5c77c038f2c5d662a96ffcc56aeebd7324c8",
+          "url": "https://github.com/nyrkio/change-detection/commit/9ec9c2efbaf24355e27996de6b0c1edebc8fbdd9",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748464426667,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 79.6251,
+            "range": "± 3.30897",
+            "unit": "ns",
+            "extra": "100 samples\n361 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 7.68983,
+            "range": "± 347.496",
             "unit": "us",
             "extra": "100 samples\n4 iterations"
           }

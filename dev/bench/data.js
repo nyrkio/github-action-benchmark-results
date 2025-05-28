@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748462751259,
+  "lastUpdate": 1748462759676,
   "entries": {
     "Rust Benchmark": [
       {
@@ -91650,6 +91650,45 @@ window.BENCHMARK_DATA = {
             "value": 43.449549436569214,
             "unit": "ns",
             "range": "± 0.09837487912558725"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "44a0f0f2f497b74664fdf7c1ec17e4001d0da612",
+          "message": "go tpc: fix typexscript substring",
+          "timestamp": "2025-05-28T23:03:33+03:00",
+          "tree_id": "fb3a191c3a23672faf48e236239a5840bc63b466",
+          "url": "https://github.com/nyrkio/change-detection/commit/44a0f0f2f497b74664fdf7c1ec17e4001d0da612",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748462737965,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Sample.Benchmarks.Fib10",
+            "value": 22.08636737863223,
+            "unit": "ns",
+            "range": "± 0.14875474369121874"
+          },
+          {
+            "name": "Sample.Benchmarks.Fib20",
+            "value": 43.03729345543044,
+            "unit": "ns",
+            "range": "± 0.09105815816201032"
           }
         ]
       }

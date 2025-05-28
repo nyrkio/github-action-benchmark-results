@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748468088500,
+  "lastUpdate": 1748468097164,
   "entries": {
     "Rust Benchmark": [
       {
@@ -80302,6 +80302,47 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 7.83122,
             "range": "± 560.432",
+            "unit": "us",
+            "extra": "100 samples\n4 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "ebd1da91c9036683243f84044bdaeb602ecc3456",
+          "message": "Go TPC: Check for empty rows",
+          "timestamp": "2025-05-29T00:33:11+03:00",
+          "tree_id": "3a9b40aff96bec6339ababa901f0f9387af72a3c",
+          "url": "https://github.com/nyrkio/change-detection/commit/ebd1da91c9036683243f84044bdaeb602ecc3456",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748468058479,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 79.8794,
+            "range": "± 3.47143",
+            "unit": "ns",
+            "extra": "100 samples\n351 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 7.68004,
+            "range": "± 389.499",
             "unit": "us",
             "extra": "100 samples\n4 iterations"
           }

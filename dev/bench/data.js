@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748468097164,
+  "lastUpdate": 1748468106072,
   "entries": {
     "Rust Benchmark": [
       {
@@ -94878,6 +94878,45 @@ window.BENCHMARK_DATA = {
             "value": 42.98820274839034,
             "unit": "ns",
             "range": "± 0.05880624432031314"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "ebd1da91c9036683243f84044bdaeb602ecc3456",
+          "message": "Go TPC: Check for empty rows",
+          "timestamp": "2025-05-29T00:33:11+03:00",
+          "tree_id": "3a9b40aff96bec6339ababa901f0f9387af72a3c",
+          "url": "https://github.com/nyrkio/change-detection/commit/ebd1da91c9036683243f84044bdaeb602ecc3456",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748468098493,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Sample.Benchmarks.Fib10",
+            "value": 21.219097535525048,
+            "unit": "ns",
+            "range": "± 0.04467459775615413"
+          },
+          {
+            "name": "Sample.Benchmarks.Fib20",
+            "value": 42.89509963072263,
+            "unit": "ns",
+            "range": "± 0.04989123199510617"
           }
         ]
       }

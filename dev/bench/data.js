@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748462734231,
+  "lastUpdate": 1748462742605,
   "entries": {
     "Rust Benchmark": [
       {
@@ -97053,6 +97053,40 @@ window.BENCHMARK_DATA = {
             "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "name": "thrpt",
             "value": 1968273797.6050942,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "44a0f0f2f497b74664fdf7c1ec17e4001d0da612",
+          "message": "go tpc: fix typexscript substring",
+          "timestamp": "2025-05-28T23:03:33+03:00",
+          "tree_id": "fb3a191c3a23672faf48e236239a5840bc63b466",
+          "url": "https://github.com/nyrkio/change-detection/commit/44a0f0f2f497b74664fdf7c1ec17e4001d0da612",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748462729276,
+        "tool": "jmh",
+        "benches": [
+          {
+            "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "name": "thrpt",
+            "value": 1969134167.7709973,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
           }

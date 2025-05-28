@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747364610215,
+  "lastUpdate": 1748450133252,
   "entries": {
     "Rust Benchmark": [
       {
@@ -56149,6 +56149,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00002261331615406108",
             "extra": "mean: 1.6734870945945384 msec\nrounds: 592"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "6418bb6a707e2a41aebd177cd7e28a7f32e1cefa",
+          "message": "JMH small changes\n\nFor Java/JMH shorten test names from the beginning\n\nReorder extractJmhResult  a little\n\nAdd params to extra_info",
+          "timestamp": "2025-05-28T19:34:03+03:00",
+          "tree_id": "5677bb877d3b6789187443da2f3be84c449d4f82",
+          "url": "https://github.com/nyrkio/change-detection/commit/6418bb6a707e2a41aebd177cd7e28a7f32e1cefa"
+        },
+        "date": 1748450126209,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 75916.03203455977,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000001140461872364815",
+            "extra": "mean: 13.172448206259821 usec\nrounds: 55885"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 606.990510618003,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000023539491938006328",
+            "extra": "mean: 1.6474722133330508 msec\nrounds: 600"
           }
         ]
       }

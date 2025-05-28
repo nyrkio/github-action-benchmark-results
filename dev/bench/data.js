@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748465448427,
+  "lastUpdate": 1748466267741,
   "entries": {
     "Rust Benchmark": [
       {
@@ -57887,6 +57887,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000015191312199386634",
             "extra": "mean: 1.671290505882845 msec\nrounds: 595"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "dc41e781aebcc138449b67c6d62528818feaa1b3",
+          "message": "Add more error message when payload is of bad format",
+          "timestamp": "2025-05-29T00:03:01+03:00",
+          "tree_id": "6511e68c572109126b1b16f588b8aedfea798d96",
+          "url": "https://github.com/nyrkio/change-detection/commit/dc41e781aebcc138449b67c6d62528818feaa1b3",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748466260949,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 75112.4521418938,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000015574528904155219",
+            "extra": "mean: 13.313371771046896 usec\nrounds: 63332"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 593.266258993161,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00015314550749559835",
+            "extra": "mean: 1.6855838080141476 msec\nrounds: 599"
           }
         ]
       }

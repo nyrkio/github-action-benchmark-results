@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748462698002,
+  "lastUpdate": 1748462706971,
   "entries": {
     "Rust Benchmark": [
       {
@@ -57372,6 +57372,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000218241677357001",
             "extra": "mean: 1.6213213774507709 msec\nrounds: 612"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "44a0f0f2f497b74664fdf7c1ec17e4001d0da612",
+          "message": "go tpc: fix typexscript substring",
+          "timestamp": "2025-05-28T23:03:33+03:00",
+          "tree_id": "fb3a191c3a23672faf48e236239a5840bc63b466",
+          "url": "https://github.com/nyrkio/change-detection/commit/44a0f0f2f497b74664fdf7c1ec17e4001d0da612",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748462685928,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 76375.25119938003,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000012660832422751295",
+            "extra": "mean: 13.093246625002491 usec\nrounds: 53778"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 626.121786533176,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000651336976313296",
+            "extra": "mean: 1.5971333716671647 msec\nrounds: 600"
           }
         ]
       }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748450177516,
+  "lastUpdate": 1748450185630,
   "entries": {
     "Rust Benchmark": [
       {
@@ -94105,6 +94105,39 @@ window.BENCHMARK_DATA = {
           {
             "name": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "value": 1965425460.3084042,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "6418bb6a707e2a41aebd177cd7e28a7f32e1cefa",
+          "message": "JMH small changes\n\nFor Java/JMH shorten test names from the beginning\n\nReorder extractJmhResult  a little\n\nAdd params to extra_info",
+          "timestamp": "2025-05-28T19:34:03+03:00",
+          "tree_id": "5677bb877d3b6789187443da2f3be84c449d4f82",
+          "url": "https://github.com/nyrkio/change-detection/commit/6418bb6a707e2a41aebd177cd7e28a7f32e1cefa",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748450172234,
+        "tool": "jmh",
+        "benches": [
+          {
+            "name": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "value": 1965293623.434129,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1"
           }

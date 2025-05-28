@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748467119614,
+  "lastUpdate": 1748467128652,
   "entries": {
     "Rust Benchmark": [
       {
@@ -69664,6 +69664,45 @@ window.BENCHMARK_DATA = {
             "value": 22296.71266715592,
             "unit": "ns/iter",
             "extra": "iterations: 31333\ncpu: 22295.647974978463 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "191e780724464ca88a02bdcfaa93d524251fb753",
+          "message": "gotpc.yaml: Add a distinguishable name",
+          "timestamp": "2025-05-29T00:16:59+03:00",
+          "tree_id": "44d8ab52e0d73f01482de19583ed7b0aba03a5b4",
+          "url": "https://github.com/nyrkio/change-detection/commit/191e780724464ca88a02bdcfaa93d524251fb753",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748467088317,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 217.0341157878548,
+            "unit": "ns/iter",
+            "extra": "iterations: 3441691\ncpu: 217.02389145335826 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 26444.462719621966,
+            "unit": "ns/iter",
+            "extra": "iterations: 27092\ncpu: 26437.922633987888 ns\nthreads: 1"
           }
         ]
       }

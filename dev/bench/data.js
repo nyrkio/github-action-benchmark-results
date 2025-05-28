@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748468127040,
+  "lastUpdate": 1748468136595,
   "entries": {
     "Rust Benchmark": [
       {
@@ -100733,6 +100733,40 @@ window.BENCHMARK_DATA = {
             "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "name": "thrpt",
             "value": 1964888253.9986553,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "ebd1da91c9036683243f84044bdaeb602ecc3456",
+          "message": "Go TPC: Check for empty rows",
+          "timestamp": "2025-05-29T00:33:11+03:00",
+          "tree_id": "3a9b40aff96bec6339ababa901f0f9387af72a3c",
+          "url": "https://github.com/nyrkio/change-detection/commit/ebd1da91c9036683243f84044bdaeb602ecc3456",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748468088104,
+        "tool": "jmh",
+        "benches": [
+          {
+            "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "name": "thrpt",
+            "value": 1964549932.4627168,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
           }

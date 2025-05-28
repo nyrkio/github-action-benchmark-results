@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748460986667,
+  "lastUpdate": 1748460994947,
   "entries": {
     "Rust Benchmark": [
       {
@@ -90462,6 +90462,45 @@ window.BENCHMARK_DATA = {
             "value": 42.96316973765691,
             "unit": "ns",
             "range": "± 0.06807079983976332"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "b9c70d12f951a0b5493279d0e61ca31a0ac957fb",
+          "message": "Update unit test snapshots due to jmh changes",
+          "timestamp": "2025-05-28T22:34:35+03:00",
+          "tree_id": "1db0cb1fc2061466738e47ac891f5bb27aafe127",
+          "url": "https://github.com/nyrkio/change-detection/commit/b9c70d12f951a0b5493279d0e61ca31a0ac957fb",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748460980553,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Sample.Benchmarks.Fib10",
+            "value": 22.016222522656122,
+            "unit": "ns",
+            "range": "± 0.08617071521772776"
+          },
+          {
+            "name": "Sample.Benchmarks.Fib20",
+            "value": 43.47169795206615,
+            "unit": "ns",
+            "range": "± 0.11905847244619994"
           }
         ]
       }

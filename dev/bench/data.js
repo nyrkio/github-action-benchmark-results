@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748462377859,
+  "lastUpdate": 1748462688027,
   "entries": {
     "Rust Benchmark": [
       {
@@ -68101,6 +68101,45 @@ window.BENCHMARK_DATA = {
             "value": 22301.934516954632,
             "unit": "ns/iter",
             "extra": "iterations: 31260\ncpu: 22300.67213691619 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "44a0f0f2f497b74664fdf7c1ec17e4001d0da612",
+          "message": "go tpc: fix typexscript substring",
+          "timestamp": "2025-05-28T23:03:33+03:00",
+          "tree_id": "fb3a191c3a23672faf48e236239a5840bc63b466",
+          "url": "https://github.com/nyrkio/change-detection/commit/44a0f0f2f497b74664fdf7c1ec17e4001d0da612",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748462681456,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 177.28389097445174,
+            "unit": "ns/iter",
+            "extra": "iterations: 3949643\ncpu: 177.26731302044263 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 22312.398328868134,
+            "unit": "ns/iter",
+            "extra": "iterations: 31356\ncpu: 22309.049400433727 ns\nthreads: 1"
           }
         ]
       }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748450185630,
+  "lastUpdate": 1748450193930,
   "entries": {
     "Rust Benchmark": [
       {
@@ -66740,6 +66740,45 @@ window.BENCHMARK_DATA = {
             "value": 20121.470412501316,
             "unit": "ns/iter",
             "extra": "iterations: 34812\ncpu: 20121.047770883604 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "6418bb6a707e2a41aebd177cd7e28a7f32e1cefa",
+          "message": "JMH small changes\n\nFor Java/JMH shorten test names from the beginning\n\nReorder extractJmhResult  a little\n\nAdd params to extra_info",
+          "timestamp": "2025-05-28T19:34:03+03:00",
+          "tree_id": "5677bb877d3b6789187443da2f3be84c449d4f82",
+          "url": "https://github.com/nyrkio/change-detection/commit/6418bb6a707e2a41aebd177cd7e28a7f32e1cefa",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748450180646,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 177.5728980951337,
+            "unit": "ns/iter",
+            "extra": "iterations: 3865684\ncpu: 177.56324417619237 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 22317.436718550565,
+            "unit": "ns/iter",
+            "extra": "iterations: 31352\ncpu: 22316.145413370763 ns\nthreads: 1"
           }
         ]
       }

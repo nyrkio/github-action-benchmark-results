@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748464472467,
+  "lastUpdate": 1748464480847,
   "entries": {
     "Rust Benchmark": [
       {
@@ -85220,6 +85220,45 @@ window.BENCHMARK_DATA = {
           {
             "name": "fib/20",
             "value": 44814,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "9ec9c2efbaf24355e27996de6b0c1edebc8fbdd9",
+          "message": "gotpc: Fix parsing logic for unit tests",
+          "timestamp": "2025-05-28T23:32:30+03:00",
+          "tree_id": "a4aa5c77c038f2c5d662a96ffcc56aeebd7324c8",
+          "url": "https://github.com/nyrkio/change-detection/commit/9ec9c2efbaf24355e27996de6b0c1edebc8fbdd9",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748464452501,
+        "tool": "julia",
+        "benches": [
+          {
+            "name": "fib/10",
+            "value": 301.61867704280155,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":257,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          },
+          {
+            "name": "fib/20",
+            "value": 48291,
             "unit": "ns",
             "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
           }

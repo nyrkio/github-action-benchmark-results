@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748464480847,
+  "lastUpdate": 1748464488817,
   "entries": {
     "Rust Benchmark": [
       {
@@ -91947,6 +91947,45 @@ window.BENCHMARK_DATA = {
             "value": 43.03729345543044,
             "unit": "ns",
             "range": "± 0.09105815816201032"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "9ec9c2efbaf24355e27996de6b0c1edebc8fbdd9",
+          "message": "gotpc: Fix parsing logic for unit tests",
+          "timestamp": "2025-05-28T23:32:30+03:00",
+          "tree_id": "a4aa5c77c038f2c5d662a96ffcc56aeebd7324c8",
+          "url": "https://github.com/nyrkio/change-detection/commit/9ec9c2efbaf24355e27996de6b0c1edebc8fbdd9",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748464468170,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Sample.Benchmarks.Fib10",
+            "value": 21.241563079612597,
+            "unit": "ns",
+            "range": "± 0.04967838475381826"
+          },
+          {
+            "name": "Sample.Benchmarks.Fib20",
+            "value": 42.99942994969232,
+            "unit": "ns",
+            "range": "± 0.02894970982679446"
           }
         ]
       }

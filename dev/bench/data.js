@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748464454250,
+  "lastUpdate": 1748464464284,
   "entries": {
     "Rust Benchmark": [
       {
@@ -97345,6 +97345,40 @@ window.BENCHMARK_DATA = {
             "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "name": "thrpt",
             "value": 1969134167.7709973,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "9ec9c2efbaf24355e27996de6b0c1edebc8fbdd9",
+          "message": "gotpc: Fix parsing logic for unit tests",
+          "timestamp": "2025-05-28T23:32:30+03:00",
+          "tree_id": "a4aa5c77c038f2c5d662a96ffcc56aeebd7324c8",
+          "url": "https://github.com/nyrkio/change-detection/commit/9ec9c2efbaf24355e27996de6b0c1edebc8fbdd9",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1748464457499,
+        "tool": "jmh",
+        "benches": [
+          {
+            "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "name": "thrpt",
+            "value": 1962677753.968053,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
           }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749256092529,
+  "lastUpdate": 1749256101471,
   "entries": {
     "Rust Benchmark": [
       {
@@ -95175,6 +95175,45 @@ window.BENCHMARK_DATA = {
             "value": 42.89509963072263,
             "unit": "ns",
             "range": "± 0.04989123199510617"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "082e9211e7071800108055d31d1287ca3e967ec3",
+          "message": "Merge pull request #3 from nyrkio/fix-repoUrl-for-pulls\n\nPull requests were using commit url for repoUrl. This should be repo url",
+          "timestamp": "2025-06-07T03:26:29+03:00",
+          "tree_id": "1abecb2d4949fe21b46ae921b962328c5b956912",
+          "url": "https://github.com/nyrkio/change-detection/commit/082e9211e7071800108055d31d1287ca3e967ec3",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1749256077710,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Sample.Benchmarks.Fib10",
+            "value": 21.16522228717804,
+            "unit": "ns",
+            "range": "± 0.016635455373560825"
+          },
+          {
+            "name": "Sample.Benchmarks.Fib20",
+            "value": 42.94539258735521,
+            "unit": "ns",
+            "range": "± 0.06308884829869268"
           }
         ]
       }

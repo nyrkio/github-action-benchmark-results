@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749256062330,
+  "lastUpdate": 1749256071920,
   "entries": {
     "Rust Benchmark": [
       {
@@ -80482,6 +80482,47 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 7.68004,
             "range": "± 389.499",
+            "unit": "us",
+            "extra": "100 samples\n4 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "082e9211e7071800108055d31d1287ca3e967ec3",
+          "message": "Merge pull request #3 from nyrkio/fix-repoUrl-for-pulls\n\nPull requests were using commit url for repoUrl. This should be repo url",
+          "timestamp": "2025-06-07T03:26:29+03:00",
+          "tree_id": "1abecb2d4949fe21b46ae921b962328c5b956912",
+          "url": "https://github.com/nyrkio/change-detection/commit/082e9211e7071800108055d31d1287ca3e967ec3",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1749256039463,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 80.0903,
+            "range": "± 3.604",
+            "unit": "ns",
+            "extra": "100 samples\n354 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 7.61143,
+            "range": "± 387.58",
             "unit": "us",
             "extra": "100 samples\n4 iterations"
           }

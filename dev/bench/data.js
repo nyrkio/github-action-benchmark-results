@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749256101471,
+  "lastUpdate": 1749256110379,
   "entries": {
     "Rust Benchmark": [
       {
@@ -101025,6 +101025,40 @@ window.BENCHMARK_DATA = {
             "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "name": "thrpt",
             "value": 1964549932.4627168,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "082e9211e7071800108055d31d1287ca3e967ec3",
+          "message": "Merge pull request #3 from nyrkio/fix-repoUrl-for-pulls\n\nPull requests were using commit url for repoUrl. This should be repo url",
+          "timestamp": "2025-06-07T03:26:29+03:00",
+          "tree_id": "1abecb2d4949fe21b46ae921b962328c5b956912",
+          "url": "https://github.com/nyrkio/change-detection/commit/082e9211e7071800108055d31d1287ca3e967ec3",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1749256070768,
+        "tool": "jmh",
+        "benches": [
+          {
+            "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "name": "thrpt",
+            "value": 1968414111.1535785,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
           }

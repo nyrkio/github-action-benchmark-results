@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754490972444,
+  "lastUpdate": 1754490981301,
   "entries": {
     "Rust Benchmark": [
       {
@@ -81178,6 +81178,47 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 7.50225,
             "range": "± 323.627",
+            "unit": "us",
+            "extra": "100 samples\n4 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "78e8355772f39afc25248c61a5586904fe859d16",
+          "message": "Fix: Don't pass billing in configObject",
+          "timestamp": "2025-08-06T17:34:15+03:00",
+          "tree_id": "563b7e461e6e85b0fc8f28098543a9bd8811fa8f",
+          "url": "https://github.com/nyrkio/change-detection/commit/78e8355772f39afc25248c61a5586904fe859d16",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1754490952689,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 79.588,
+            "range": "± 3.29359",
+            "unit": "ns",
+            "extra": "100 samples\n356 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 7.85259,
+            "range": "± 418.383",
             "unit": "us",
             "extra": "100 samples\n4 iterations"
           }

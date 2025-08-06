@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754488590241,
+  "lastUpdate": 1754488599164,
   "entries": {
     "Rust Benchmark": [
       {
@@ -70554,6 +70554,45 @@ window.BENCHMARK_DATA = {
             "value": 22357.50434588821,
             "unit": "ns/iter",
             "extra": "iterations: 31409\ncpu: 22354.273838708654 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "a0b2d9e18fd35ccd1e856f0e186692b5d5eba39a",
+          "message": "Add support for direction in NyrkioJson (time, criterion)\n\nThis means \"higher_is_better\" / \"lower_is_better\"\n\nNote that in Nyrkiö this is defined per metric. The\ngithub-benchmark-action approach where this is defined on\nthe level of benchmark framework, aka for a given programming\nlanguage all metrics are one or the other.",
+          "timestamp": "2025-08-06T16:50:34+03:00",
+          "tree_id": "d9855cf64f7fb75484b6cf67e3b5fbee39247d2c",
+          "url": "https://github.com/nyrkio/change-detection/commit/a0b2d9e18fd35ccd1e856f0e186692b5d5eba39a",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1754488583894,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 177.29453596171314,
+            "unit": "ns/iter",
+            "extra": "iterations: 3945946\ncpu: 177.2784199276929 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 22334.50584674227,
+            "unit": "ns/iter",
+            "extra": "iterations: 31385\ncpu: 22332.84801656842 ns\nthreads: 1"
           }
         ]
       }

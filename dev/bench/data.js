@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754491739050,
+  "lastUpdate": 1754491748647,
   "entries": {
     "Rust Benchmark": [
       {
@@ -59555,6 +59555,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000017138364558610426",
             "extra": "mean: 1.6314924951458782 msec\nrounds: 618"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "d26ea4adc1698a75a82c820051eda922a688d51b",
+          "message": "Use @HEAD for self testing, otherwise it's not even checking out\n\n...the fixes",
+          "timestamp": "2025-08-06T17:47:34+03:00",
+          "tree_id": "d6c225302c675bb32ab51f5661509d5cbdeb3062",
+          "url": "https://github.com/nyrkio/change-detection/commit/d26ea4adc1698a75a82c820051eda922a688d51b",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1754491733578,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 76759.27433880947,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000010620536141322498",
+            "extra": "mean: 13.027741710872325 usec\nrounds: 40807"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 624.1291694645647,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000038435451846917596",
+            "extra": "mean: 1.602232436689174 msec\nrounds: 616"
           }
         ]
       }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754489505052,
+  "lastUpdate": 1754489517398,
   "entries": {
     "Rust Benchmark": [
       {
@@ -31391,6 +31391,63 @@ window.BENCHMARK_DATA = {
             "value": 4,
             "unit": "auxMetricUnits",
             "extra": "30154 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "298a7f438868d409f93e80e0d47fc52ec5a614be",
+          "message": "Remove billing from configObject\n\nbilling is a read-only setting. If we try to return it back\nto the user/config API, Nyrkiö will 400 us",
+          "timestamp": "2025-08-06T17:08:55+03:00",
+          "tree_id": "7acc5d49363b20c7bb7c4e736adb53f61a46b385",
+          "url": "https://github.com/nyrkio/change-detection/commit/298a7f438868d409f93e80e0d47fc52ec5a614be",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1754489510669,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkFib10",
+            "value": 312.6,
+            "unit": "ns/op",
+            "extra": "3820113 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20",
+            "value": 40088,
+            "unit": "ns/op",
+            "extra": "30194 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric",
+            "value": 39780,
+            "unit": "ns/op\t         4.000 auxMetricUnits",
+            "extra": "30230 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric - ns/op",
+            "value": 39780,
+            "unit": "ns/op",
+            "extra": "30230 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric - auxMetricUnits",
+            "value": 4,
+            "unit": "auxMetricUnits",
+            "extra": "30230 times\n4 procs"
           }
         ]
       }

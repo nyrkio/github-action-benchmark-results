@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754488536866,
+  "lastUpdate": 1754488547624,
   "entries": {
     "Rust Benchmark": [
       {
@@ -46028,6 +46028,47 @@ window.BENCHMARK_DATA = {
             "range": "±0.93%",
             "unit": "ops/sec",
             "extra": "99 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "a0b2d9e18fd35ccd1e856f0e186692b5d5eba39a",
+          "message": "Add support for direction in NyrkioJson (time, criterion)\n\nThis means \"higher_is_better\" / \"lower_is_better\"\n\nNote that in Nyrkiö this is defined per metric. The\ngithub-benchmark-action approach where this is defined on\nthe level of benchmark framework, aka for a given programming\nlanguage all metrics are one or the other.",
+          "timestamp": "2025-08-06T16:50:34+03:00",
+          "tree_id": "d9855cf64f7fb75484b6cf67e3b5fbee39247d2c",
+          "url": "https://github.com/nyrkio/change-detection/commit/a0b2d9e18fd35ccd1e856f0e186692b5d5eba39a",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1754488532571,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "fib(10)",
+            "value": 1618441,
+            "range": "±0.66%",
+            "unit": "ops/sec",
+            "extra": "97 samples"
+          },
+          {
+            "name": "fib(20)",
+            "value": 13374,
+            "range": "±0.25%",
+            "unit": "ops/sec",
+            "extra": "98 samples"
           }
         ]
       }

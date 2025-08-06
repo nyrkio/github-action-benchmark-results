@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754491748647,
+  "lastUpdate": 1754491758545,
   "entries": {
     "Rust Benchmark": [
       {
@@ -46322,6 +46322,47 @@ window.BENCHMARK_DATA = {
             "range": "±0.49%",
             "unit": "ops/sec",
             "extra": "97 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "d26ea4adc1698a75a82c820051eda922a688d51b",
+          "message": "Use @HEAD for self testing, otherwise it's not even checking out\n\n...the fixes",
+          "timestamp": "2025-08-06T17:47:34+03:00",
+          "tree_id": "d6c225302c675bb32ab51f5661509d5cbdeb3062",
+          "url": "https://github.com/nyrkio/change-detection/commit/d26ea4adc1698a75a82c820051eda922a688d51b",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1754491737263,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "fib(10)",
+            "value": 1545920,
+            "range": "±0.57%",
+            "unit": "ops/sec",
+            "extra": "90 samples"
+          },
+          {
+            "name": "fib(20)",
+            "value": 12814,
+            "range": "±0.70%",
+            "unit": "ops/sec",
+            "extra": "93 samples"
           }
         ]
       }

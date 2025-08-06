@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754488547624,
+  "lastUpdate": 1754488556612,
   "entries": {
     "Rust Benchmark": [
       {
@@ -31334,6 +31334,63 @@ window.BENCHMARK_DATA = {
             "value": 4,
             "unit": "auxMetricUnits",
             "extra": "30159 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "a0b2d9e18fd35ccd1e856f0e186692b5d5eba39a",
+          "message": "Add support for direction in NyrkioJson (time, criterion)\n\nThis means \"higher_is_better\" / \"lower_is_better\"\n\nNote that in Nyrkiö this is defined per metric. The\ngithub-benchmark-action approach where this is defined on\nthe level of benchmark framework, aka for a given programming\nlanguage all metrics are one or the other.",
+          "timestamp": "2025-08-06T16:50:34+03:00",
+          "tree_id": "d9855cf64f7fb75484b6cf67e3b5fbee39247d2c",
+          "url": "https://github.com/nyrkio/change-detection/commit/a0b2d9e18fd35ccd1e856f0e186692b5d5eba39a",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1754488534425,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkFib10",
+            "value": 311.8,
+            "unit": "ns/op",
+            "extra": "3841885 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20",
+            "value": 40086,
+            "unit": "ns/op",
+            "extra": "30166 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric",
+            "value": 40182,
+            "unit": "ns/op\t         4.000 auxMetricUnits",
+            "extra": "30154 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric - ns/op",
+            "value": 40182,
+            "unit": "ns/op",
+            "extra": "30154 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric - auxMetricUnits",
+            "value": 4,
+            "unit": "auxMetricUnits",
+            "extra": "30154 times\n4 procs"
           }
         ]
       }

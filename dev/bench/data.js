@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754489542803,
+  "lastUpdate": 1754489551678,
   "entries": {
     "Rust Benchmark": [
       {
@@ -101648,6 +101648,40 @@ window.BENCHMARK_DATA = {
             "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "name": "thrpt",
             "value": 1969657762.0507004,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "298a7f438868d409f93e80e0d47fc52ec5a614be",
+          "message": "Remove billing from configObject\n\nbilling is a read-only setting. If we try to return it back\nto the user/config API, Nyrkiö will 400 us",
+          "timestamp": "2025-08-06T17:08:55+03:00",
+          "tree_id": "7acc5d49363b20c7bb7c4e736adb53f61a46b385",
+          "url": "https://github.com/nyrkio/change-detection/commit/298a7f438868d409f93e80e0d47fc52ec5a614be",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1754489544982,
+        "tool": "jmh",
+        "benches": [
+          {
+            "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "name": "thrpt",
+            "value": 1962491080.3467782,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
           }

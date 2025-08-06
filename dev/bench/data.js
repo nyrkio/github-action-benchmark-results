@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754491794404,
+  "lastUpdate": 1754491803001,
   "entries": {
     "Rust Benchmark": [
       {
@@ -102349,6 +102349,40 @@ window.BENCHMARK_DATA = {
             "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "name": "thrpt",
             "value": 1968095295.6752012,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "d26ea4adc1698a75a82c820051eda922a688d51b",
+          "message": "Use @HEAD for self testing, otherwise it's not even checking out\n\n...the fixes",
+          "timestamp": "2025-08-06T17:47:34+03:00",
+          "tree_id": "d6c225302c675bb32ab51f5661509d5cbdeb3062",
+          "url": "https://github.com/nyrkio/change-detection/commit/d26ea4adc1698a75a82c820051eda922a688d51b",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1754491771971,
+        "tool": "jmh",
+        "benches": [
+          {
+            "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "name": "thrpt",
+            "value": 1966250937.8741693,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
           }

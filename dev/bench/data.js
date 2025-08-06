@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754490963453,
+  "lastUpdate": 1754490972444,
   "entries": {
     "Rust Benchmark": [
       {
@@ -59514,6 +59514,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000016416174482715426",
             "extra": "mean: 1.613344274958856 msec\nrounds: 611"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "78e8355772f39afc25248c61a5586904fe859d16",
+          "message": "Fix: Don't pass billing in configObject",
+          "timestamp": "2025-08-06T17:34:15+03:00",
+          "tree_id": "563b7e461e6e85b0fc8f28098543a9bd8811fa8f",
+          "url": "https://github.com/nyrkio/change-detection/commit/78e8355772f39afc25248c61a5586904fe859d16",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1754490950527,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 76773.85186746877,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000011321147849482296",
+            "extra": "mean: 13.025268052542875 usec\nrounds: 36269"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 612.9357033362179,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000017138364558610426",
+            "extra": "mean: 1.6314924951458782 msec\nrounds: 618"
           }
         ]
       }

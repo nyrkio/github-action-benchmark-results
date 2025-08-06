@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754489533917,
+  "lastUpdate": 1754489542803,
   "entries": {
     "Rust Benchmark": [
       {
@@ -59375,6 +59375,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00001484493484588072",
             "extra": "mean: 1.6196629377052747 msec\nrounds: 610"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "298a7f438868d409f93e80e0d47fc52ec5a614be",
+          "message": "Remove billing from configObject\n\nbilling is a read-only setting. If we try to return it back\nto the user/config API, Nyrkiö will 400 us",
+          "timestamp": "2025-08-06T17:08:55+03:00",
+          "tree_id": "7acc5d49363b20c7bb7c4e736adb53f61a46b385",
+          "url": "https://github.com/nyrkio/change-detection/commit/298a7f438868d409f93e80e0d47fc52ec5a614be",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1754489504458,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 77000.41694003822,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000010125751791021544",
+            "extra": "mean: 12.986942665241932 usec\nrounds: 39156"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 619.8305070537423,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000016416174482715426",
+            "extra": "mean: 1.613344274958856 msec\nrounds: 611"
           }
         ]
       }

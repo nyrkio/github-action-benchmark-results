@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754491000297,
+  "lastUpdate": 1754491012569,
   "entries": {
     "Rust Benchmark": [
       {
@@ -96105,6 +96105,45 @@ window.BENCHMARK_DATA = {
             "value": 42.86701108302389,
             "unit": "ns",
             "range": "± 0.057244409798763544"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "78e8355772f39afc25248c61a5586904fe859d16",
+          "message": "Fix: Don't pass billing in configObject",
+          "timestamp": "2025-08-06T17:34:15+03:00",
+          "tree_id": "563b7e461e6e85b0fc8f28098543a9bd8811fa8f",
+          "url": "https://github.com/nyrkio/change-detection/commit/78e8355772f39afc25248c61a5586904fe859d16",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1754490982251,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Sample.Benchmarks.Fib10",
+            "value": 21.43510244488716,
+            "unit": "ns",
+            "range": "± 0.24946511661350212"
+          },
+          {
+            "name": "Sample.Benchmarks.Fib20",
+            "value": 42.9013375725065,
+            "unit": "ns",
+            "range": "± 0.028435151306611915"
           }
         ]
       }

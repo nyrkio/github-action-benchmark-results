@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754489582163,
+  "lastUpdate": 1754489596629,
   "entries": {
     "Rust Benchmark": [
       {
@@ -110970,6 +110970,69 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci/Recursive/21",
             "value": 36089,
             "range": "± 69",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/21",
+            "value": 3,
+            "range": "± 0",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "298a7f438868d409f93e80e0d47fc52ec5a614be",
+          "message": "Remove billing from configObject\n\nbilling is a read-only setting. If we try to return it back\nto the user/config API, Nyrkiö will 400 us",
+          "timestamp": "2025-08-06T17:08:55+03:00",
+          "tree_id": "7acc5d49363b20c7bb7c4e736adb53f61a46b385",
+          "url": "https://github.com/nyrkio/change-detection/commit/298a7f438868d409f93e80e0d47fc52ec5a614be",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1754489589735,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "BenchFib10",
+            "value": 176,
+            "range": "± 6",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "BenchFib20",
+            "value": 22299,
+            "range": "± 95",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/20",
+            "value": 22292,
+            "range": "± 223",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/20",
+            "value": 3,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/21",
+            "value": 36092,
+            "range": "± 1461",
             "unit": "ns/iter"
           },
           {

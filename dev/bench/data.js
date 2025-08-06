@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754488566215,
+  "lastUpdate": 1754488581412,
   "entries": {
     "Rust Benchmark": [
       {
@@ -88277,6 +88277,45 @@ window.BENCHMARK_DATA = {
           {
             "name": "fib/20",
             "value": 44845,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "a0b2d9e18fd35ccd1e856f0e186692b5d5eba39a",
+          "message": "Add support for direction in NyrkioJson (time, criterion)\n\nThis means \"higher_is_better\" / \"lower_is_better\"\n\nNote that in Nyrkiö this is defined per metric. The\ngithub-benchmark-action approach where this is defined on\nthe level of benchmark framework, aka for a given programming\nlanguage all metrics are one or the other.",
+          "timestamp": "2025-08-06T16:50:34+03:00",
+          "tree_id": "d9855cf64f7fb75484b6cf67e3b5fbee39247d2c",
+          "url": "https://github.com/nyrkio/change-detection/commit/a0b2d9e18fd35ccd1e856f0e186692b5d5eba39a",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1754488566910,
+        "tool": "julia",
+        "benches": [
+          {
+            "name": "fib/10",
+            "value": 304.17857142857144,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":252,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          },
+          {
+            "name": "fib/20",
+            "value": 44844,
             "unit": "ns",
             "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
           }

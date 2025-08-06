@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754489596629,
+  "lastUpdate": 1754490940383,
   "entries": {
     "Rust Benchmark": [
       {
@@ -70771,6 +70771,45 @@ window.BENCHMARK_DATA = {
             "value": 22336.767538530607,
             "unit": "ns/iter",
             "extra": "iterations: 31274\ncpu: 22334.68907079363 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "78e8355772f39afc25248c61a5586904fe859d16",
+          "message": "Fix: Don't pass billing in configObject",
+          "timestamp": "2025-08-06T17:34:15+03:00",
+          "tree_id": "563b7e461e6e85b0fc8f28098543a9bd8811fa8f",
+          "url": "https://github.com/nyrkio/change-detection/commit/78e8355772f39afc25248c61a5586904fe859d16",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1754490933828,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 177.6818216443446,
+            "unit": "ns/iter",
+            "extra": "iterations: 3951397\ncpu: 177.65861162520497 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 22370.08085929677,
+            "unit": "ns/iter",
+            "extra": "iterations: 29978\ncpu: 22365.58099272801 ns\nthreads: 1"
           }
         ]
       }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754961361983,
+  "lastUpdate": 1754961370644,
   "entries": {
     "Rust Benchmark": [
       {
@@ -59792,6 +59792,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000038435451846917596",
             "extra": "mean: 1.602232436689174 msec\nrounds: 616"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a2df9fcff3b047c241124fea06523d05fd3f2901",
+          "message": "Merge pull request #6 from nyrkio/challenge-publish\n\nChallenge Publish Handshake",
+          "timestamp": "2025-08-12T04:14:53+03:00",
+          "tree_id": "ad42fd8d1c565331abc593b2fc48685de50561c6",
+          "url": "https://github.com/nyrkio/change-detection/commit/a2df9fcff3b047c241124fea06523d05fd3f2901",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1754961330246,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 70430.10850572163,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000012013195938224375",
+            "extra": "mean: 14.198473085111912 usec\nrounds: 33383"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 615.0003022527882,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000015689382374416593",
+            "extra": "mean: 1.626015461028119 msec\nrounds: 603"
           }
         ]
       }

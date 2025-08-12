@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754961397140,
+  "lastUpdate": 1754961407339,
   "entries": {
     "Rust Benchmark": [
       {
@@ -117945,6 +117945,47 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 7.58924,
             "range": "± 387.461",
+            "unit": "us",
+            "extra": "100 samples\n4 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a2df9fcff3b047c241124fea06523d05fd3f2901",
+          "message": "Merge pull request #6 from nyrkio/challenge-publish\n\nChallenge Publish Handshake",
+          "timestamp": "2025-08-12T04:14:53+03:00",
+          "tree_id": "ad42fd8d1c565331abc593b2fc48685de50561c6",
+          "url": "https://github.com/nyrkio/change-detection/commit/a2df9fcff3b047c241124fea06523d05fd3f2901",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1754961378258,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 80.7295,
+            "range": "± 3.78656",
+            "unit": "ns",
+            "extra": "100 samples\n368 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 7.56087,
+            "range": "± 332.728",
             "unit": "us",
             "extra": "100 samples\n4 iterations"
           }

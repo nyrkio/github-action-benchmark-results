@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754491831968,
+  "lastUpdate": 1754961329965,
   "entries": {
     "Rust Benchmark": [
       {
@@ -71127,6 +71127,45 @@ window.BENCHMARK_DATA = {
             "value": 22314.23977914681,
             "unit": "ns/iter",
             "extra": "iterations: 31333\ncpu: 22311.800497877633 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a2df9fcff3b047c241124fea06523d05fd3f2901",
+          "message": "Merge pull request #6 from nyrkio/challenge-publish\n\nChallenge Publish Handshake",
+          "timestamp": "2025-08-12T04:14:53+03:00",
+          "tree_id": "ad42fd8d1c565331abc593b2fc48685de50561c6",
+          "url": "https://github.com/nyrkio/change-detection/commit/a2df9fcff3b047c241124fea06523d05fd3f2901",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1754961323222,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 177.14620397203575,
+            "unit": "ns/iter",
+            "extra": "iterations: 3941001\ncpu: 177.13179265876872 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 23803.853818691856,
+            "unit": "ns/iter",
+            "extra": "iterations: 31372\ncpu: 23802.205406094607 ns\nthreads: 1"
           }
         ]
       }

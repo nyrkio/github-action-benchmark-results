@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754961370644,
+  "lastUpdate": 1754961380240,
   "entries": {
     "Rust Benchmark": [
       {
@@ -102641,6 +102641,40 @@ window.BENCHMARK_DATA = {
             "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "name": "thrpt",
             "value": 1966250937.8741693,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a2df9fcff3b047c241124fea06523d05fd3f2901",
+          "message": "Merge pull request #6 from nyrkio/challenge-publish\n\nChallenge Publish Handshake",
+          "timestamp": "2025-08-12T04:14:53+03:00",
+          "tree_id": "ad42fd8d1c565331abc593b2fc48685de50561c6",
+          "url": "https://github.com/nyrkio/change-detection/commit/a2df9fcff3b047c241124fea06523d05fd3f2901",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1754961373454,
+        "tool": "jmh",
+        "benches": [
+          {
+            "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "name": "thrpt",
+            "value": 1969283995.6274903,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
           }

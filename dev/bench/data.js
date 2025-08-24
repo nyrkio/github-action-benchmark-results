@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756054808115,
+  "lastUpdate": 1756054818788,
   "entries": {
     "Rust Benchmark": [
       {
@@ -72156,6 +72156,45 @@ window.BENCHMARK_DATA = {
             "value": 22293.400509634765,
             "unit": "ns/iter",
             "extra": "iterations: 31395\ncpu: 22290.934480012744 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fa94781ec714c151815be6287ec32a3f9881fd32",
+          "message": "Merge pull request #7 from nyrkio/no-config-for-cph-user\n\nDon't call setNotifications or setParameter if client used CPH",
+          "timestamp": "2025-08-24T19:58:41+03:00",
+          "tree_id": "36d381687b8212e8e7f98f26ae9227708dfc681d",
+          "url": "https://github.com/nyrkio/change-detection/commit/fa94781ec714c151815be6287ec32a3f9881fd32",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1756054804319,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 177.04927974607637,
+            "unit": "ns/iter",
+            "extra": "iterations: 3949371\ncpu: 177.0399964956445 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 22417.814271594794,
+            "unit": "ns/iter",
+            "extra": "iterations: 31363\ncpu: 22417.084908969176 ns\nthreads: 1"
           }
         ]
       }

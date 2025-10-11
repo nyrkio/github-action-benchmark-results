@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760220718697,
+  "lastUpdate": 1760220729953,
   "entries": {
     "Rust Benchmark": [
       {
@@ -91113,6 +91113,45 @@ window.BENCHMARK_DATA = {
           {
             "name": "fib/20",
             "value": 44934,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "16c2add0c29d3bcd87a8ae29bb091ce38553f8fc",
+          "message": "Support for scheduled runs: Deduce the repo name from local path",
+          "timestamp": "2025-10-12T01:10:01+03:00",
+          "tree_id": "169a0e9c92c0989e022a9bac472657efb6578a94",
+          "url": "https://github.com/nyrkio/change-detection/commit/16c2add0c29d3bcd87a8ae29bb091ce38553f8fc",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1760220722709,
+        "tool": "julia",
+        "benches": [
+          {
+            "name": "fib/10",
+            "value": 354.5953307392996,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":257,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          },
+          {
+            "name": "fib/20",
+            "value": 45024,
             "unit": "ns",
             "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
           }

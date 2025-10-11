@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760214878467,
+  "lastUpdate": 1760220688777,
   "entries": {
     "Rust Benchmark": [
       {
@@ -60667,6 +60667,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00011770628845919218",
             "extra": "mean: 1.6535566710962426 msec\nrounds: 602"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "16c2add0c29d3bcd87a8ae29bb091ce38553f8fc",
+          "message": "Support for scheduled runs: Deduce the repo name from local path",
+          "timestamp": "2025-10-12T01:10:01+03:00",
+          "tree_id": "169a0e9c92c0989e022a9bac472657efb6578a94",
+          "url": "https://github.com/nyrkio/change-detection/commit/16c2add0c29d3bcd87a8ae29bb091ce38553f8fc",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1760220681142,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 75799.94126521521,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000001022713111637066",
+            "extra": "mean: 13.192622359707588 usec\nrounds: 40377"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 600.3806352885697,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000041803764978012406",
+            "extra": "mean: 1.665610016751049 msec\nrounds: 597"
           }
         ]
       }

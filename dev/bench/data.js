@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760226487214,
+  "lastUpdate": 1760226498955,
   "entries": {
     "Rust Benchmark": [
       {
@@ -99372,6 +99372,45 @@ window.BENCHMARK_DATA = {
             "value": 43.083777556816734,
             "unit": "ns",
             "range": "± 0.03066464472137385"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "9096cea219559b4896435a4fb9e2ce81c16b4c5a",
+          "message": "Move debug message earlier",
+          "timestamp": "2025-10-12T02:45:54+03:00",
+          "tree_id": "9a5e4f683ebaafece75ba1bfdfcdf0b59dc3d243",
+          "url": "https://github.com/nyrkio/change-detection/commit/9096cea219559b4896435a4fb9e2ce81c16b4c5a",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1760226466706,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Sample.Benchmarks.Fib10",
+            "value": 21.866158932447433,
+            "unit": "ns",
+            "range": "± 0.04901823092636115"
+          },
+          {
+            "name": "Sample.Benchmarks.Fib20",
+            "value": 42.993566524523956,
+            "unit": "ns",
+            "range": "± 0.04757774710415209"
           }
         ]
       }

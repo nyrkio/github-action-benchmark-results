@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760214844055,
+  "lastUpdate": 1760214853366,
   "entries": {
     "Rust Benchmark": [
       {
@@ -120516,6 +120516,47 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 7.63438,
             "range": "± 348.028",
+            "unit": "us",
+            "extra": "100 samples\n4 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "ac653d5dc1d238830feb97086c55161490f26fb3",
+          "message": "Support scheduled runs.\n\nScheduled workflows context is not the same as for PR nor for\npost-merge trigger. We need to get the commit info from the local\ncheckout. Luckily I know how to do that. Just needed to\nunblock the code path.",
+          "timestamp": "2025-10-11T23:29:31+03:00",
+          "tree_id": "66d8f4ddb37dfce5eea316b9ed1091fe61ec962f",
+          "url": "https://github.com/nyrkio/change-detection/commit/ac653d5dc1d238830feb97086c55161490f26fb3",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1760214822860,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 80.0678,
+            "range": "± 3.25058",
+            "unit": "ns",
+            "extra": "100 samples\n364 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 7.59349,
+            "range": "± 407.411",
             "unit": "us",
             "extra": "100 samples\n4 iterations"
           }

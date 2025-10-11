@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760214782591,
+  "lastUpdate": 1760214791705,
   "entries": {
     "Rust Benchmark": [
       {
@@ -60585,6 +60585,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000014804398826249914",
             "extra": "mean: 1.6413047915966659 msec\nrounds: 595"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "ac653d5dc1d238830feb97086c55161490f26fb3",
+          "message": "Support scheduled runs.\n\nScheduled workflows context is not the same as for PR nor for\npost-merge trigger. We need to get the commit info from the local\ncheckout. Luckily I know how to do that. Just needed to\nunblock the code path.",
+          "timestamp": "2025-10-11T23:29:31+03:00",
+          "tree_id": "66d8f4ddb37dfce5eea316b9ed1091fe61ec962f",
+          "url": "https://github.com/nyrkio/change-detection/commit/ac653d5dc1d238830feb97086c55161490f26fb3",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1760214775499,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 75430.23238874694,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000010431131085561078",
+            "extra": "mean: 13.257283828137655 usec\nrounds: 49611"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 604.7570170891328,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011770628845919218",
+            "extra": "mean: 1.6535566710962426 msec\nrounds: 602"
           }
         ]
       }

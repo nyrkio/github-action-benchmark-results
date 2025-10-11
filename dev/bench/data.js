@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760214835115,
+  "lastUpdate": 1760214844055,
   "entries": {
     "Rust Benchmark": [
       {
@@ -104666,6 +104666,40 @@ window.BENCHMARK_DATA = {
             "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "name": "thrpt",
             "value": 1958989267.6064196,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "ac653d5dc1d238830feb97086c55161490f26fb3",
+          "message": "Support scheduled runs.\n\nScheduled workflows context is not the same as for PR nor for\npost-merge trigger. We need to get the commit info from the local\ncheckout. Luckily I know how to do that. Just needed to\nunblock the code path.",
+          "timestamp": "2025-10-11T23:29:31+03:00",
+          "tree_id": "66d8f4ddb37dfce5eea316b9ed1091fe61ec962f",
+          "url": "https://github.com/nyrkio/change-detection/commit/ac653d5dc1d238830feb97086c55161490f26fb3",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1760214829255,
+        "tool": "jmh",
+        "benches": [
+          {
+            "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "name": "thrpt",
+            "value": 1967730133.7043216,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
           }

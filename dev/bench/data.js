@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760265430387,
+  "lastUpdate": 1760265440229,
   "entries": {
     "Rust Benchmark": [
       {
@@ -92186,6 +92186,45 @@ window.BENCHMARK_DATA = {
           {
             "name": "fib/20",
             "value": 44804,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "95ffef4bd492a90ff94465b79c9f63de822fbc62",
+          "message": "Downgrade debug logging",
+          "timestamp": "2025-10-12T13:34:51+03:00",
+          "tree_id": "f042ca046bd3c9801b8999abcb582a1c66108f0c",
+          "url": "https://github.com/nyrkio/change-detection/commit/95ffef4bd492a90ff94465b79c9f63de822fbc62",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1760265395455,
+        "tool": "julia",
+        "benches": [
+          {
+            "name": "fib/10",
+            "value": 303.06349206349205,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":252,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          },
+          {
+            "name": "fib/20",
+            "value": 45004,
             "unit": "ns",
             "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
           }

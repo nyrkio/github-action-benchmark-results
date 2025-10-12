@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760264958190,
+  "lastUpdate": 1760264968065,
   "entries": {
     "Rust Benchmark": [
       {
@@ -106029,6 +106029,40 @@ window.BENCHMARK_DATA = {
             "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "name": "thrpt",
             "value": 1964115957.6321032,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "93d9d0d08656cf7ac68fcca87f9232419ba99813",
+          "message": "Support scheduled runs: Use context..repository for metadata",
+          "timestamp": "2025-10-12T13:24:17+03:00",
+          "tree_id": "9d134a36be331f5f90702c35c52aa869639bdcdd",
+          "url": "https://github.com/nyrkio/change-detection/commit/93d9d0d08656cf7ac68fcca87f9232419ba99813",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1760264935087,
+        "tool": "jmh",
+        "benches": [
+          {
+            "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "name": "thrpt",
+            "value": 1965084316.7071133,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
           }

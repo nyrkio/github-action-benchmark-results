@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761166011331,
+  "lastUpdate": 1761166020582,
   "entries": {
     "Rust Benchmark": [
       {
@@ -106613,6 +106613,40 @@ window.BENCHMARK_DATA = {
             "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "name": "thrpt",
             "value": 1947283326.1709738,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "7d1809adf787936f2f0671af5e8ff50849ded8f1",
+          "message": "For CPH user, use /public/pull/...?notify=1\n\nNyrkiö now supports reading changes and, when using nottify=1,\nleaving a comment on the PR, for 3rd party contributors of\npublic (open source) github projects. In Nyrkiö terminology, this\nmeans users that were authenticated with the ChallengePublishAuthentication\nmethod, and do not have a nyrkio-token.\n\nSince such users by definition can only occur on public github projects,\nthey should use the /pulic/.., API end points. OTOH users using the nyrkio-token\n(typically users with write access to the repo) should continue to use the\n/... or /orgs/... URLs that are intended for fully authenticated users.",
+          "timestamp": "2025-10-22T23:35:44+03:00",
+          "tree_id": "fe3f9b147c248b5025f5d52bd253ec8665998252",
+          "url": "https://github.com/nyrkio/change-detection/commit/7d1809adf787936f2f0671af5e8ff50849ded8f1",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1761166004821,
+        "tool": "jmh",
+        "benches": [
+          {
+            "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "name": "thrpt",
+            "value": 1971111343.1647422,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
           }

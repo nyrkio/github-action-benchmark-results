@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761165976639,
+  "lastUpdate": 1761165986654,
   "entries": {
     "Rust Benchmark": [
       {
@@ -32246,6 +32246,63 @@ window.BENCHMARK_DATA = {
             "value": 4,
             "unit": "auxMetricUnits",
             "extra": "30136 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "7d1809adf787936f2f0671af5e8ff50849ded8f1",
+          "message": "For CPH user, use /public/pull/...?notify=1\n\nNyrkiö now supports reading changes and, when using nottify=1,\nleaving a comment on the PR, for 3rd party contributors of\npublic (open source) github projects. In Nyrkiö terminology, this\nmeans users that were authenticated with the ChallengePublishAuthentication\nmethod, and do not have a nyrkio-token.\n\nSince such users by definition can only occur on public github projects,\nthey should use the /pulic/.., API end points. OTOH users using the nyrkio-token\n(typically users with write access to the repo) should continue to use the\n/... or /orgs/... URLs that are intended for fully authenticated users.",
+          "timestamp": "2025-10-22T23:35:44+03:00",
+          "tree_id": "fe3f9b147c248b5025f5d52bd253ec8665998252",
+          "url": "https://github.com/nyrkio/change-detection/commit/7d1809adf787936f2f0671af5e8ff50849ded8f1",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1761165961925,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkFib10",
+            "value": 314.6,
+            "unit": "ns/op",
+            "extra": "3848859 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20",
+            "value": 39849,
+            "unit": "ns/op",
+            "extra": "30142 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric",
+            "value": 39893,
+            "unit": "ns/op\t         4.000 auxMetricUnits",
+            "extra": "30135 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric - ns/op",
+            "value": 39893,
+            "unit": "ns/op",
+            "extra": "30135 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric - auxMetricUnits",
+            "value": 4,
+            "unit": "auxMetricUnits",
+            "extra": "30135 times\n4 procs"
           }
         ]
       }

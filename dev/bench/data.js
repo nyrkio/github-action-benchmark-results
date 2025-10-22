@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761166054811,
+  "lastUpdate": 1761166064803,
   "entries": {
     "Rust Benchmark": [
       {
@@ -123228,6 +123228,47 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 7.663,
             "range": "± 795.715",
+            "unit": "us",
+            "extra": "100 samples\n4 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "7d1809adf787936f2f0671af5e8ff50849ded8f1",
+          "message": "For CPH user, use /public/pull/...?notify=1\n\nNyrkiö now supports reading changes and, when using nottify=1,\nleaving a comment on the PR, for 3rd party contributors of\npublic (open source) github projects. In Nyrkiö terminology, this\nmeans users that were authenticated with the ChallengePublishAuthentication\nmethod, and do not have a nyrkio-token.\n\nSince such users by definition can only occur on public github projects,\nthey should use the /pulic/.., API end points. OTOH users using the nyrkio-token\n(typically users with write access to the repo) should continue to use the\n/... or /orgs/... URLs that are intended for fully authenticated users.",
+          "timestamp": "2025-10-22T23:35:44+03:00",
+          "tree_id": "fe3f9b147c248b5025f5d52bd253ec8665998252",
+          "url": "https://github.com/nyrkio/change-detection/commit/7d1809adf787936f2f0671af5e8ff50849ded8f1",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1761166012234,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 91.4934,
+            "range": "± 12.1475",
+            "unit": "ns",
+            "extra": "100 samples\n364 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 8.85196,
+            "range": "± 1.15588",
             "unit": "us",
             "extra": "100 samples\n4 iterations"
           }

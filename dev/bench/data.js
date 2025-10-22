@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761166031105,
+  "lastUpdate": 1761166040726,
   "entries": {
     "Rust Benchmark": [
       {
@@ -92444,6 +92444,45 @@ window.BENCHMARK_DATA = {
           {
             "name": "fib/20",
             "value": 45004,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "7d1809adf787936f2f0671af5e8ff50849ded8f1",
+          "message": "For CPH user, use /public/pull/...?notify=1\n\nNyrkiö now supports reading changes and, when using nottify=1,\nleaving a comment on the PR, for 3rd party contributors of\npublic (open source) github projects. In Nyrkiö terminology, this\nmeans users that were authenticated with the ChallengePublishAuthentication\nmethod, and do not have a nyrkio-token.\n\nSince such users by definition can only occur on public github projects,\nthey should use the /pulic/.., API end points. OTOH users using the nyrkio-token\n(typically users with write access to the repo) should continue to use the\n/... or /orgs/... URLs that are intended for fully authenticated users.",
+          "timestamp": "2025-10-22T23:35:44+03:00",
+          "tree_id": "fe3f9b147c248b5025f5d52bd253ec8665998252",
+          "url": "https://github.com/nyrkio/change-detection/commit/7d1809adf787936f2f0671af5e8ff50849ded8f1",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1761165997890,
+        "tool": "julia",
+        "benches": [
+          {
+            "name": "fib/10",
+            "value": 306.26693227091636,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":251,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          },
+          {
+            "name": "fib/20",
+            "value": 44844,
             "unit": "ns",
             "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
           }

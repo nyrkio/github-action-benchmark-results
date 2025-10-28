@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761667177687,
+  "lastUpdate": 1761667192656,
   "entries": {
     "Rust Benchmark": [
       {
@@ -117274,6 +117274,69 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci/Recursive/21",
             "value": 30562,
             "range": "± 55",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/21",
+            "value": 4,
+            "range": "± 0",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "18e70a1f2463016d0198189ce6155c573e8e5c52",
+          "message": "Allow scientific notation in input for doubles\n\nNo, you are not supposed to use it, but the yaml parser that\nreads the workflow.yml file apparently does this.",
+          "timestamp": "2025-10-28T17:55:50+02:00",
+          "tree_id": "9ceed69d93e07aa8b62890fc671021b4fa892a76",
+          "url": "https://github.com/nyrkio/change-detection/commit/18e70a1f2463016d0198189ce6155c573e8e5c52",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1761667184617,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "BenchFib10",
+            "value": 150,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "BenchFib20",
+            "value": 18922,
+            "range": "± 2943",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/20",
+            "value": 18886,
+            "range": "± 187",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/20",
+            "value": 3,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/21",
+            "value": 30573,
+            "range": "± 142",
             "unit": "ns/iter"
           },
           {

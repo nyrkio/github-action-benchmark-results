@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761166064803,
+  "lastUpdate": 1761667092988,
   "entries": {
     "Rust Benchmark": [
       {
@@ -61501,6 +61501,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000172860828839511",
             "extra": "mean: 1.6259696195903672 msec\nrounds: 439"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "18e70a1f2463016d0198189ce6155c573e8e5c52",
+          "message": "Allow scientific notation in input for doubles\n\nNo, you are not supposed to use it, but the yaml parser that\nreads the workflow.yml file apparently does this.",
+          "timestamp": "2025-10-28T17:55:50+02:00",
+          "tree_id": "9ceed69d93e07aa8b62890fc671021b4fa892a76",
+          "url": "https://github.com/nyrkio/change-detection/commit/18e70a1f2463016d0198189ce6155c573e8e5c52",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1761667085093,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 71691.35113923125,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000011258485294720185",
+            "extra": "mean: 13.948683964093624 usec\nrounds: 38657"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 572.7507461770664,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000416909048806041",
+            "extra": "mean: 1.7459601871751191 msec\nrounds: 577"
           }
         ]
       }

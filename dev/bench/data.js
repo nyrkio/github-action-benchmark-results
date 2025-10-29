@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761772213095,
+  "lastUpdate": 1761772222244,
   "entries": {
     "Rust Benchmark": [
       {
@@ -32360,6 +32360,63 @@ window.BENCHMARK_DATA = {
             "value": 4,
             "unit": "auxMetricUnits",
             "extra": "30193 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "43aba6cb576302caef6ef3b4716257796fe0e75d",
+          "message": "fix: Just use https%3A and  %2F directly instead of encodeURIcomponent...\n\nAlso fix some lint issue that snuck into the tests last night",
+          "timestamp": "2025-10-29T23:04:56+02:00",
+          "tree_id": "0cab3a0feee5e994e6e49c2f4ba7431da7360fef",
+          "url": "https://github.com/nyrkio/change-detection/commit/43aba6cb576302caef6ef3b4716257796fe0e75d",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1761772198012,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkFib10",
+            "value": 312.4,
+            "unit": "ns/op",
+            "extra": "3863282 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20",
+            "value": 39784,
+            "unit": "ns/op",
+            "extra": "30145 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric",
+            "value": 39791,
+            "unit": "ns/op\t         4.000 auxMetricUnits",
+            "extra": "30153 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric - ns/op",
+            "value": 39791,
+            "unit": "ns/op",
+            "extra": "30153 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric - auxMetricUnits",
+            "value": 4,
+            "unit": "auxMetricUnits",
+            "extra": "30153 times\n4 procs"
           }
         ]
       }

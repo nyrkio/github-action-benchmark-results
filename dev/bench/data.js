@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761772300247,
+  "lastUpdate": 1761772699542,
   "entries": {
     "Rust Benchmark": [
       {
@@ -61779,6 +61779,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000050922939373365706",
             "extra": "mean: 1.5195124894893246 msec\nrounds: 666"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "865b04b64c22b4bfe9906565ac3bf931b107d422",
+          "message": "fix: Public URL root missing a final /",
+          "timestamp": "2025-10-29T23:17:04+02:00",
+          "tree_id": "0dee015a59cd66422c07418b62847c0ef5a65930",
+          "url": "https://github.com/nyrkio/change-detection/commit/865b04b64c22b4bfe9906565ac3bf931b107d422",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1761772691699,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 74790.36104119966,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000002876658287645674",
+            "extra": "mean: 13.37070694777274 usec\nrounds: 54219"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 614.8360085587774,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000018828685467433974",
+            "extra": "mean: 1.6264499575164384 msec\nrounds: 612"
           }
         ]
       }

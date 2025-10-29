@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761772760233,
+  "lastUpdate": 1761772772779,
   "entries": {
     "Rust Benchmark": [
       {
@@ -124431,6 +124431,47 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 7.61948,
             "range": "± 371.015",
+            "unit": "us",
+            "extra": "100 samples\n4 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "865b04b64c22b4bfe9906565ac3bf931b107d422",
+          "message": "fix: Public URL root missing a final /",
+          "timestamp": "2025-10-29T23:17:04+02:00",
+          "tree_id": "0dee015a59cd66422c07418b62847c0ef5a65930",
+          "url": "https://github.com/nyrkio/change-detection/commit/865b04b64c22b4bfe9906565ac3bf931b107d422",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1761772749058,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 80.2766,
+            "range": "± 3.62815",
+            "unit": "ns",
+            "extra": "100 samples\n363 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 7.54523,
+            "range": "± 363.967",
             "unit": "us",
             "extra": "100 samples\n4 iterations"
           }

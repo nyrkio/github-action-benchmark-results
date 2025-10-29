@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761772200336,
+  "lastUpdate": 1761772213095,
   "entries": {
     "Rust Benchmark": [
       {
@@ -61681,6 +61681,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0000416909048806041",
             "extra": "mean: 1.7459601871751191 msec\nrounds: 577"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "43aba6cb576302caef6ef3b4716257796fe0e75d",
+          "message": "fix: Just use https%3A and  %2F directly instead of encodeURIcomponent...\n\nAlso fix some lint issue that snuck into the tests last night",
+          "timestamp": "2025-10-29T23:04:56+02:00",
+          "tree_id": "0cab3a0feee5e994e6e49c2f4ba7431da7360fef",
+          "url": "https://github.com/nyrkio/change-detection/commit/43aba6cb576302caef6ef3b4716257796fe0e75d",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1761772192955,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 81298.45848499575,
+            "unit": "iter/sec",
+            "range": "stddev: 7.650048621609724e-7",
+            "extra": "mean: 12.300356226121528 usec\nrounds: 43085"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 658.1058115133219,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000050922939373365706",
+            "extra": "mean: 1.5195124894893246 msec\nrounds: 666"
           }
         ]
       }

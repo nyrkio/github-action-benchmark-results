@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761772232413,
+  "lastUpdate": 1761772242326,
   "entries": {
     "Rust Benchmark": [
       {
@@ -84682,6 +84682,47 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 7.58899,
             "range": "± 310.569",
+            "unit": "us",
+            "extra": "100 samples\n4 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "43aba6cb576302caef6ef3b4716257796fe0e75d",
+          "message": "fix: Just use https%3A and  %2F directly instead of encodeURIcomponent...\n\nAlso fix some lint issue that snuck into the tests last night",
+          "timestamp": "2025-10-29T23:04:56+02:00",
+          "tree_id": "0cab3a0feee5e994e6e49c2f4ba7431da7360fef",
+          "url": "https://github.com/nyrkio/change-detection/commit/43aba6cb576302caef6ef3b4716257796fe0e75d",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1761772206854,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 86.6372,
+            "range": "± 7.45412",
+            "unit": "ns",
+            "extra": "100 samples\n363 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 8.14117,
+            "range": "± 570.806",
             "unit": "us",
             "extra": "100 samples\n4 iterations"
           }

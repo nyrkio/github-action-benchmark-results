@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761772222244,
+  "lastUpdate": 1761772232413,
   "entries": {
     "Rust Benchmark": [
       {
@@ -73758,6 +73758,45 @@ window.BENCHMARK_DATA = {
             "value": 22305.862205226218,
             "unit": "ns/iter",
             "extra": "iterations: 31380\ncpu: 22304.979445506695 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "43aba6cb576302caef6ef3b4716257796fe0e75d",
+          "message": "fix: Just use https%3A and  %2F directly instead of encodeURIcomponent...\n\nAlso fix some lint issue that snuck into the tests last night",
+          "timestamp": "2025-10-29T23:04:56+02:00",
+          "tree_id": "0cab3a0feee5e994e6e49c2f4ba7431da7360fef",
+          "url": "https://github.com/nyrkio/change-detection/commit/43aba6cb576302caef6ef3b4716257796fe0e75d",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1761772196585,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 177.12353323775483,
+            "unit": "ns/iter",
+            "extra": "iterations: 3952839\ncpu: 177.1046647738499 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 22298.26461184348,
+            "unit": "ns/iter",
+            "extra": "iterations: 31276\ncpu: 22296.29437907661 ns\nthreads: 1"
           }
         ]
       }

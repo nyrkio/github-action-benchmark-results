@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761772252277,
+  "lastUpdate": 1761772262295,
   "entries": {
     "Rust Benchmark": [
       {
@@ -107314,6 +107314,40 @@ window.BENCHMARK_DATA = {
             "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "name": "thrpt",
             "value": 1968230656.996132,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "43aba6cb576302caef6ef3b4716257796fe0e75d",
+          "message": "fix: Just use https%3A and  %2F directly instead of encodeURIcomponent...\n\nAlso fix some lint issue that snuck into the tests last night",
+          "timestamp": "2025-10-29T23:04:56+02:00",
+          "tree_id": "0cab3a0feee5e994e6e49c2f4ba7431da7360fef",
+          "url": "https://github.com/nyrkio/change-detection/commit/43aba6cb576302caef6ef3b4716257796fe0e75d",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1761772244711,
+        "tool": "jmh",
+        "benches": [
+          {
+            "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "name": "thrpt",
+            "value": 1970228550.9288874,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
           }

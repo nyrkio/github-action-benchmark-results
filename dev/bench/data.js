@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762256208865,
+  "lastUpdate": 1762256218545,
   "entries": {
     "Rust Benchmark": [
       {
@@ -75876,6 +75876,45 @@ window.BENCHMARK_DATA = {
             "value": 22309.920572666208,
             "unit": "ns/iter",
             "extra": "iterations: 31362\ncpu: 22308.277246349087 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "75deeacf4b1a1dbebec3d23d6fd952aab4bca576",
+          "message": "ts",
+          "timestamp": "2025-11-04T13:35:59+02:00",
+          "tree_id": "80afb8ff314b81515382f235098c587f237598c2",
+          "url": "https://github.com/nyrkio/change-detection/commit/75deeacf4b1a1dbebec3d23d6fd952aab4bca576",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762256201206,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 177.07309712792514,
+            "unit": "ns/iter",
+            "extra": "iterations: 3955258\ncpu: 177.05950888665163 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 22291.881354852805,
+            "unit": "ns/iter",
+            "extra": "iterations: 31413\ncpu: 22290.836437143855 ns\nthreads: 1"
           }
         ]
       }

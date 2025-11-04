@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762250863685,
+  "lastUpdate": 1762250875473,
   "entries": {
     "Rust Benchmark": [
       {
@@ -101412,6 +101412,45 @@ window.BENCHMARK_DATA = {
             "value": 43.41237738957772,
             "unit": "ns",
             "range": "± 0.054627732461859896"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "d9bc8103a6e5bec475bf9f3d27490f3057339c01",
+          "message": "fix: for pull_requests, use correct timestamp of base commit",
+          "timestamp": "2025-11-04T12:04:41+02:00",
+          "tree_id": "10f3be6a667211526319db773d7eb2f33023dcd5",
+          "url": "https://github.com/nyrkio/change-detection/commit/d9bc8103a6e5bec475bf9f3d27490f3057339c01",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762250842175,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Sample.Benchmarks.Fib10",
+            "value": 19.373335338064603,
+            "unit": "ns",
+            "range": "± 0.019624399090601225"
+          },
+          {
+            "name": "Sample.Benchmarks.Fib20",
+            "value": 37.1731883486112,
+            "unit": "ns",
+            "range": "± 0.030456715450239483"
           }
         ]
       }

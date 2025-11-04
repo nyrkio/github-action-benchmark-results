@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762256169168,
+  "lastUpdate": 1762256179248,
   "entries": {
     "Rust Benchmark": [
       {
@@ -110994,6 +110994,40 @@ window.BENCHMARK_DATA = {
             "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "name": "thrpt",
             "value": 1965400264.4061353,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "82d68552dd67af433921e1466e992c20b3b69a3e",
+          "message": "types",
+          "timestamp": "2025-11-04T13:33:46+02:00",
+          "tree_id": "344caf4a35f13b3724a71e65129893a057f8a321",
+          "url": "https://github.com/nyrkio/change-detection/commit/82d68552dd67af433921e1466e992c20b3b69a3e",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762256126668,
+        "tool": "jmh",
+        "benches": [
+          {
+            "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "name": "thrpt",
+            "value": 1966356153.816357,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
           }

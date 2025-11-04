@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762296803177,
+  "lastUpdate": 1762299936270,
   "entries": {
     "Rust Benchmark": [
       {
@@ -65140,6 +65140,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000013752947356752578",
             "extra": "mean: 1.6244177230273522 msec\nrounds: 621"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "1cbbfb2595c51ae1d8ed79d97bf35f60035ad433",
+          "message": "fix: For base_commit, convert timestamp to Unix timestamp\n\n...before sending to Nyrkio, like we always do.",
+          "timestamp": "2025-11-05T01:43:59+02:00",
+          "tree_id": "78768b700c70003814df6ed6ce6844ff1076206c",
+          "url": "https://github.com/nyrkio/change-detection/commit/1cbbfb2595c51ae1d8ed79d97bf35f60035ad433",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762299927140,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 76635.90833961486,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000010045528419013926",
+            "extra": "mean: 13.04871334686167 usec\nrounds: 33019"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 626.441715956226,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000016228373366614184",
+            "extra": "mean: 1.596317701278178 msec\nrounds: 626"
           }
         ]
       }

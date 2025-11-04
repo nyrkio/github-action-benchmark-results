@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762295110790,
+  "lastUpdate": 1762295123588,
   "entries": {
     "Rust Benchmark": [
       {
@@ -107279,6 +107279,45 @@ window.BENCHMARK_DATA = {
             "value": 37.19562463576977,
             "unit": "ns",
             "range": "± 0.026752722901570068"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "db335fea7e5c220a26f353a29ad7daacbb1a16d7",
+          "message": "It works! Remove debug prints.",
+          "timestamp": "2025-11-05T00:22:38+02:00",
+          "tree_id": "d591a00710a7c95ebabd29092ac2c0a8e6978036",
+          "url": "https://github.com/nyrkio/change-detection/commit/db335fea7e5c220a26f353a29ad7daacbb1a16d7",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762295096121,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Sample.Benchmarks.Fib10",
+            "value": 21.86794656302248,
+            "unit": "ns",
+            "range": "± 0.02420439831874794"
+          },
+          {
+            "name": "Sample.Benchmarks.Fib20",
+            "value": 42.9375757098198,
+            "unit": "ns",
+            "range": "± 0.0522333552768168"
           }
         ]
       }

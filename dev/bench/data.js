@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762254237509,
+  "lastUpdate": 1762254247514,
   "entries": {
     "Rust Benchmark": [
       {
@@ -102303,6 +102303,45 @@ window.BENCHMARK_DATA = {
             "value": 43.043073600530626,
             "unit": "ns",
             "range": "± 0.05518816205085708"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "508cbc3a66c2af0f30fad6843ffc63b854d65be2",
+          "message": "typescript wrangling\n\nTrying to make compiler happy while not losing all the info that\nI need",
+          "timestamp": "2025-11-04T13:01:53+02:00",
+          "tree_id": "c200e00ac8185e0cfc1135f98d2638c3d454938d",
+          "url": "https://github.com/nyrkio/change-detection/commit/508cbc3a66c2af0f30fad6843ffc63b854d65be2",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762254239643,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Sample.Benchmarks.Fib10",
+            "value": 21.169462238366787,
+            "unit": "ns",
+            "range": "± 0.011585053014789841"
+          },
+          {
+            "name": "Sample.Benchmarks.Fib20",
+            "value": 42.89915433100292,
+            "unit": "ns",
+            "range": "± 0.043542918726208066"
           }
         ]
       }

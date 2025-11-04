@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762250875473,
+  "lastUpdate": 1762250892022,
   "entries": {
     "Rust Benchmark": [
       {
@@ -93476,6 +93476,45 @@ window.BENCHMARK_DATA = {
           {
             "name": "fib/20",
             "value": 45004,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "d9bc8103a6e5bec475bf9f3d27490f3057339c01",
+          "message": "fix: for pull_requests, use correct timestamp of base commit",
+          "timestamp": "2025-11-04T12:04:41+02:00",
+          "tree_id": "10f3be6a667211526319db773d7eb2f33023dcd5",
+          "url": "https://github.com/nyrkio/change-detection/commit/d9bc8103a6e5bec475bf9f3d27490f3057339c01",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762250829228,
+        "tool": "julia",
+        "benches": [
+          {
+            "name": "fib/10",
+            "value": 275.28712871287127,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":303,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          },
+          {
+            "name": "fib/20",
+            "value": 34589,
             "unit": "ns",
             "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
           }

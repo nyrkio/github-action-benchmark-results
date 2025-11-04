@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762296628586,
+  "lastUpdate": 1762296639918,
   "entries": {
     "Rust Benchmark": [
       {
@@ -115146,6 +115146,40 @@ window.BENCHMARK_DATA = {
             "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "name": "thrpt",
             "value": 1925690065.6554508,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "d966b646903df07757e6692bd0fea36062cc0a2b",
+          "message": "The updated_at was even tested.\n\nUnfortunately was not documented by github so we could have known what\nit means.",
+          "timestamp": "2025-11-05T00:47:24+02:00",
+          "tree_id": "53a20c4593c4035bc5e87eb26fa560d7bc0d3f4b",
+          "url": "https://github.com/nyrkio/change-detection/commit/d966b646903df07757e6692bd0fea36062cc0a2b",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762296602912,
+        "tool": "jmh",
+        "benches": [
+          {
+            "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "name": "thrpt",
+            "value": 1969719376.1419027,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
           }

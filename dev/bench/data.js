@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762296692608,
+  "lastUpdate": 1762296703370,
   "entries": {
     "Rust Benchmark": [
       {
@@ -65001,6 +65001,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000013617680482113475",
             "extra": "mean: 1.5165157874617043 msec\nrounds: 654"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "3f84c587846157cd563e94a6ab540bf5cc865ee6",
+          "message": "Add all to package.json",
+          "timestamp": "2025-11-05T00:50:36+02:00",
+          "tree_id": "f8e775c95fe543af498d0783c99c244910f660e3",
+          "url": "https://github.com/nyrkio/change-detection/commit/3f84c587846157cd563e94a6ab540bf5cc865ee6",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762296685456,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 75002.73821304338,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000011465801566605597",
+            "extra": "mean: 13.332846557675339 usec\nrounds: 36574"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 615.605201681958,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000013752947356752578",
+            "extra": "mean: 1.6244177230273522 msec\nrounds: 621"
           }
         ]
       }

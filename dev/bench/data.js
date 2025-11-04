@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762295088808,
+  "lastUpdate": 1762295099395,
   "entries": {
     "Rust Benchmark": [
       {
@@ -114427,6 +114427,40 @@ window.BENCHMARK_DATA = {
             "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "name": "thrpt",
             "value": 1969918663.4810746,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "db335fea7e5c220a26f353a29ad7daacbb1a16d7",
+          "message": "It works! Remove debug prints.",
+          "timestamp": "2025-11-05T00:22:38+02:00",
+          "tree_id": "d591a00710a7c95ebabd29092ac2c0a8e6978036",
+          "url": "https://github.com/nyrkio/change-detection/commit/db335fea7e5c220a26f353a29ad7daacbb1a16d7",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762295080638,
+        "tool": "jmh",
+        "benches": [
+          {
+            "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "name": "thrpt",
+            "value": 1968205737.7954848,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
           }

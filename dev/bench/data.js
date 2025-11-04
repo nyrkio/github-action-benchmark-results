@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762253108435,
+  "lastUpdate": 1762254196707,
   "entries": {
     "Rust Benchmark": [
       {
@@ -62335,6 +62335,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00003586959431552874",
             "extra": "mean: 1.6404835512198255 msec\nrounds: 615"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "508cbc3a66c2af0f30fad6843ffc63b854d65be2",
+          "message": "typescript wrangling\n\nTrying to make compiler happy while not losing all the info that\nI need",
+          "timestamp": "2025-11-04T13:01:53+02:00",
+          "tree_id": "c200e00ac8185e0cfc1135f98d2638c3d454938d",
+          "url": "https://github.com/nyrkio/change-detection/commit/508cbc3a66c2af0f30fad6843ffc63b854d65be2",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762254186547,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 82490.98658434587,
+            "unit": "iter/sec",
+            "range": "stddev: 7.198833853434579e-7",
+            "extra": "mean: 12.122536551038992 usec\nrounds: 42721"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 664.3289749079843,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000036463758919678836",
+            "extra": "mean: 1.5052783150674847 msec\nrounds: 657"
           }
         ]
       }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762254897570,
+  "lastUpdate": 1762254909228,
   "entries": {
     "Rust Benchmark": [
       {
@@ -75004,6 +75004,45 @@ window.BENCHMARK_DATA = {
             "value": 22291.40654786601,
             "unit": "ns/iter",
             "extra": "iterations: 31369\ncpu: 22290.47996429596 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "0878286e8f7f72af1d01b8e6b44a127bdff194cf",
+          "message": "Now we need github-token everywhere (for pulls)",
+          "timestamp": "2025-11-04T13:12:48+02:00",
+          "tree_id": "c7e043fa757902d449c695387a3b1e684749ac20",
+          "url": "https://github.com/nyrkio/change-detection/commit/0878286e8f7f72af1d01b8e6b44a127bdff194cf",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762254845346,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 182.3179512455134,
+            "unit": "ns/iter",
+            "extra": "iterations: 3733195\ncpu: 182.30293381406543 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 23274.7480582683,
+            "unit": "ns/iter",
+            "extra": "iterations: 29999\ncpu: 23271.908563618785 ns\nthreads: 1"
           }
         ]
       }

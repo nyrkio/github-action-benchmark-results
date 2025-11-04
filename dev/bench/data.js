@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762300032070,
+  "lastUpdate": 1762300045812,
   "entries": {
     "Rust Benchmark": [
       {
@@ -78233,6 +78233,45 @@ window.BENCHMARK_DATA = {
             "value": 22310.592893822046,
             "unit": "ns/iter",
             "extra": "iterations: 31353\ncpu: 22309.67422575192 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "1cbbfb2595c51ae1d8ed79d97bf35f60035ad433",
+          "message": "fix: For base_commit, convert timestamp to Unix timestamp\n\n...before sending to Nyrkio, like we always do.",
+          "timestamp": "2025-11-05T01:43:59+02:00",
+          "tree_id": "78768b700c70003814df6ed6ce6844ff1076206c",
+          "url": "https://github.com/nyrkio/change-detection/commit/1cbbfb2595c51ae1d8ed79d97bf35f60035ad433",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762299932478,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 182.64184921295896,
+            "unit": "ns/iter",
+            "extra": "iterations: 3604063\ncpu: 182.6848107261166 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 23137.431086884677,
+            "unit": "ns/iter",
+            "extra": "iterations: 30270\ncpu: 23136.11440370003 ns\nthreads: 1"
           }
         ]
       }

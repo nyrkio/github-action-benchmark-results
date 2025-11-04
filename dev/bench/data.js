@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762254853271,
+  "lastUpdate": 1762254863412,
   "entries": {
     "Rust Benchmark": [
       {
@@ -62654,6 +62654,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000010838782196009393",
             "extra": "mean: 1.4969518355958702 msec\nrounds: 663"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "0878286e8f7f72af1d01b8e6b44a127bdff194cf",
+          "message": "Now we need github-token everywhere (for pulls)",
+          "timestamp": "2025-11-04T13:12:48+02:00",
+          "tree_id": "c7e043fa757902d449c695387a3b1e684749ac20",
+          "url": "https://github.com/nyrkio/change-detection/commit/0878286e8f7f72af1d01b8e6b44a127bdff194cf",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762254845477,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 74581.13379245065,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000010496321109232588",
+            "extra": "mean: 13.408216651450577 usec\nrounds: 37258"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 595.2902731836425,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001304428897435972",
+            "extra": "mean: 1.679852745874629 msec\nrounds: 606"
           }
         ]
       }

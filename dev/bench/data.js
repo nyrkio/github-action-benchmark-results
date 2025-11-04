@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762292029314,
+  "lastUpdate": 1762292042630,
   "entries": {
     "Rust Benchmark": [
       {
@@ -98008,6 +98008,45 @@ window.BENCHMARK_DATA = {
           {
             "name": "fib/20",
             "value": 34580,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "3300bad7e2e71dfd8618f7d2ff4ab87ebf92b10c",
+          "message": "fix: var in string",
+          "timestamp": "2025-11-04T23:30:58+02:00",
+          "tree_id": "f5cfdf3d2c7aac62a8b2aa99e379879690e82398",
+          "url": "https://github.com/nyrkio/change-detection/commit/3300bad7e2e71dfd8618f7d2ff4ab87ebf92b10c",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762291975310,
+        "tool": "julia",
+        "benches": [
+          {
+            "name": "fib/10",
+            "value": 283.3710247349823,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":283,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          },
+          {
+            "name": "fib/20",
+            "value": 35813,
             "unit": "ns",
             "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
           }

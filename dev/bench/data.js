@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762254885578,
+  "lastUpdate": 1762254897570,
   "entries": {
     "Rust Benchmark": [
       {
@@ -126929,6 +126929,47 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 7.68569,
             "range": "± 324.921",
+            "unit": "us",
+            "extra": "100 samples\n4 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "0878286e8f7f72af1d01b8e6b44a127bdff194cf",
+          "message": "Now we need github-token everywhere (for pulls)",
+          "timestamp": "2025-11-04T13:12:48+02:00",
+          "tree_id": "c7e043fa757902d449c695387a3b1e684749ac20",
+          "url": "https://github.com/nyrkio/change-detection/commit/0878286e8f7f72af1d01b8e6b44a127bdff194cf",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762254889371,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 80.2965,
+            "range": "± 3.3555",
+            "unit": "ns",
+            "extra": "100 samples\n356 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 7.62463,
+            "range": "± 314.364",
             "unit": "us",
             "extra": "100 samples\n4 iterations"
           }

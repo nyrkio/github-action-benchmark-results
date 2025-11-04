@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762254196707,
+  "lastUpdate": 1762254205871,
   "entries": {
     "Rust Benchmark": [
       {
@@ -74550,6 +74550,45 @@ window.BENCHMARK_DATA = {
             "value": 22313.64706069976,
             "unit": "ns/iter",
             "extra": "iterations: 31351\ncpu: 22311.147299926637 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "508cbc3a66c2af0f30fad6843ffc63b854d65be2",
+          "message": "typescript wrangling\n\nTrying to make compiler happy while not losing all the info that\nI need",
+          "timestamp": "2025-11-04T13:01:53+02:00",
+          "tree_id": "c200e00ac8185e0cfc1135f98d2638c3d454938d",
+          "url": "https://github.com/nyrkio/change-detection/commit/508cbc3a66c2af0f30fad6843ffc63b854d65be2",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762254189172,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 180.62127826477897,
+            "unit": "ns/iter",
+            "extra": "iterations: 3939090\ncpu: 180.61566630871602 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 22304.216274226725,
+            "unit": "ns/iter",
+            "extra": "iterations: 31215\ncpu: 22303.464199903898 ns\nthreads: 1"
           }
         ]
       }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762254630299,
+  "lastUpdate": 1762254640284,
   "entries": {
     "Rust Benchmark": [
       {
@@ -32702,6 +32702,63 @@ window.BENCHMARK_DATA = {
             "value": 4,
             "unit": "auxMetricUnits",
             "extra": "30225 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "963d7299811ba76c5c5dd825f9f7fdc48e9c3357",
+          "message": "add debug",
+          "timestamp": "2025-11-04T13:08:52+02:00",
+          "tree_id": "88033d2a111e7655f3b9a5bb51473fb5a30a0402",
+          "url": "https://github.com/nyrkio/change-detection/commit/963d7299811ba76c5c5dd825f9f7fdc48e9c3357",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762254614443,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkFib10",
+            "value": 311.8,
+            "unit": "ns/op",
+            "extra": "3852454 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20",
+            "value": 39869,
+            "unit": "ns/op",
+            "extra": "29228 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric",
+            "value": 39702,
+            "unit": "ns/op\t         4.000 auxMetricUnits",
+            "extra": "30051 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric - ns/op",
+            "value": 39702,
+            "unit": "ns/op",
+            "extra": "30051 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkFib20WithAuxMetric - auxMetricUnits",
+            "value": 4,
+            "unit": "auxMetricUnits",
+            "extra": "30051 times\n4 procs"
           }
         ]
       }

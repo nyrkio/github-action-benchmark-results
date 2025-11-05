@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762300045812,
+  "lastUpdate": 1762302385072,
   "entries": {
     "Rust Benchmark": [
       {
@@ -78272,6 +78272,45 @@ window.BENCHMARK_DATA = {
             "value": 23137.431086884677,
             "unit": "ns/iter",
             "extra": "iterations: 30270\ncpu: 23136.11440370003 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "636dc92234c59b9d938ee14f6a831e23f305e518",
+          "message": "Second attempt to get typescript to convert a single field...",
+          "timestamp": "2025-11-05T02:24:55+02:00",
+          "tree_id": "a3915359c7bc2772538b3e73c1b86ccc109a30fc",
+          "url": "https://github.com/nyrkio/change-detection/commit/636dc92234c59b9d938ee14f6a831e23f305e518",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762302375554,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 177.26455248518158,
+            "unit": "ns/iter",
+            "extra": "iterations: 3952830\ncpu: 177.2617974969832 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 22340.658573112876,
+            "unit": "ns/iter",
+            "extra": "iterations: 31383\ncpu: 22339.029410827523 ns\nthreads: 1"
           }
         ]
       }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762302408492,
+  "lastUpdate": 1762302420586,
   "entries": {
     "Rust Benchmark": [
       {
@@ -99716,6 +99716,45 @@ window.BENCHMARK_DATA = {
           {
             "name": "fib/20",
             "value": 45004,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "636dc92234c59b9d938ee14f6a831e23f305e518",
+          "message": "Second attempt to get typescript to convert a single field...",
+          "timestamp": "2025-11-05T02:24:55+02:00",
+          "tree_id": "a3915359c7bc2772538b3e73c1b86ccc109a30fc",
+          "url": "https://github.com/nyrkio/change-detection/commit/636dc92234c59b9d938ee14f6a831e23f305e518",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762302411520,
+        "tool": "julia",
+        "benches": [
+          {
+            "name": "fib/10",
+            "value": 337.4173228346457,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":254,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          },
+          {
+            "name": "fib/20",
+            "value": 44994,
             "unit": "ns",
             "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
           }

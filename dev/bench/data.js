@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762302385072,
+  "lastUpdate": 1762302397848,
   "entries": {
     "Rust Benchmark": [
       {
@@ -65279,6 +65279,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000016228373366614184",
             "extra": "mean: 1.596317701278178 msec\nrounds: 626"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "636dc92234c59b9d938ee14f6a831e23f305e518",
+          "message": "Second attempt to get typescript to convert a single field...",
+          "timestamp": "2025-11-05T02:24:55+02:00",
+          "tree_id": "a3915359c7bc2772538b3e73c1b86ccc109a30fc",
+          "url": "https://github.com/nyrkio/change-detection/commit/636dc92234c59b9d938ee14f6a831e23f305e518",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762302378399,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 77010.55398629328,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000011307048693824868",
+            "extra": "mean: 12.985233169183344 usec\nrounds: 32084"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 617.7338050457449,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003897047371735012",
+            "extra": "mean: 1.61882026178889 msec\nrounds: 615"
           }
         ]
       }

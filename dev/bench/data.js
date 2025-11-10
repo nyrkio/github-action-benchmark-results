@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762302497093,
+  "lastUpdate": 1762734941073,
   "entries": {
     "Rust Benchmark": [
       {
@@ -78450,6 +78450,45 @@ window.BENCHMARK_DATA = {
             "value": 22340.658573112876,
             "unit": "ns/iter",
             "extra": "iterations: 31383\ncpu: 22339.029410827523 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "fe1a81cfb4aa6a70923f10bfa1d961ff240586d4",
+          "message": "Check and force use of the same unit each time\n\nAt least rust cargo (or criterion) will report execution times\nin whatever SI unit that makes the value be between 1 and 1000.\nSo it will happily flip-flop between 999 ns and 1.001 us.\n(Of course, since it is not concerned or aware of its historical\nresults.)\n\nWhile Nyrkiö allows you to choose the unit/magniture freely,\nswitching from one to another is not supported. This patch\nwill connect to nyrkio.com and get the previous results,\nthen try to convert the current unit to whatever is already\nin nyrkio. Only \"s\" is supported, for seconds, and specifically\nconverting between s, ms, us or µs, and ns.",
+          "timestamp": "2025-11-10T02:27:58+02:00",
+          "tree_id": "5228fcdaaf529aee10e449f27344d22dca6b5be5",
+          "url": "https://github.com/nyrkio/change-detection/commit/fe1a81cfb4aa6a70923f10bfa1d961ff240586d4",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762734931777,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 177.00836451572536,
+            "unit": "ns/iter",
+            "extra": "iterations: 3937586\ncpu: 176.9983977492809 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 22305.770187131806,
+            "unit": "ns/iter",
+            "extra": "iterations: 31208\ncpu: 22304.516918738784 ns\nthreads: 1"
           }
         ]
       }

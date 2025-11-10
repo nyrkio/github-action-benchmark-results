@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762734998156,
+  "lastUpdate": 1762735010270,
   "entries": {
     "Rust Benchmark": [
       {
@@ -100072,6 +100072,45 @@ window.BENCHMARK_DATA = {
           {
             "name": "fib/20",
             "value": 44994,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "fe1a81cfb4aa6a70923f10bfa1d961ff240586d4",
+          "message": "Check and force use of the same unit each time\n\nAt least rust cargo (or criterion) will report execution times\nin whatever SI unit that makes the value be between 1 and 1000.\nSo it will happily flip-flop between 999 ns and 1.001 us.\n(Of course, since it is not concerned or aware of its historical\nresults.)\n\nWhile Nyrkiö allows you to choose the unit/magniture freely,\nswitching from one to another is not supported. This patch\nwill connect to nyrkio.com and get the previous results,\nthen try to convert the current unit to whatever is already\nin nyrkio. Only \"s\" is supported, for seconds, and specifically\nconverting between s, ms, us or µs, and ns.",
+          "timestamp": "2025-11-10T02:27:58+02:00",
+          "tree_id": "5228fcdaaf529aee10e449f27344d22dca6b5be5",
+          "url": "https://github.com/nyrkio/change-detection/commit/fe1a81cfb4aa6a70923f10bfa1d961ff240586d4",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762734971642,
+        "tool": "julia",
+        "benches": [
+          {
+            "name": "fib/10",
+            "value": 306.0972762645914,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":257,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          },
+          {
+            "name": "fib/20",
+            "value": 44813,
             "unit": "ns",
             "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
           }

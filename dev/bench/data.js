@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762734951681,
+  "lastUpdate": 1762734962908,
   "entries": {
     "Rust Benchmark": [
       {
@@ -90604,6 +90604,47 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 7.71466,
             "range": "± 328.494",
+            "unit": "us",
+            "extra": "100 samples\n4 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "fe1a81cfb4aa6a70923f10bfa1d961ff240586d4",
+          "message": "Check and force use of the same unit each time\n\nAt least rust cargo (or criterion) will report execution times\nin whatever SI unit that makes the value be between 1 and 1000.\nSo it will happily flip-flop between 999 ns and 1.001 us.\n(Of course, since it is not concerned or aware of its historical\nresults.)\n\nWhile Nyrkiö allows you to choose the unit/magniture freely,\nswitching from one to another is not supported. This patch\nwill connect to nyrkio.com and get the previous results,\nthen try to convert the current unit to whatever is already\nin nyrkio. Only \"s\" is supported, for seconds, and specifically\nconverting between s, ms, us or µs, and ns.",
+          "timestamp": "2025-11-10T02:27:58+02:00",
+          "tree_id": "5228fcdaaf529aee10e449f27344d22dca6b5be5",
+          "url": "https://github.com/nyrkio/change-detection/commit/fe1a81cfb4aa6a70923f10bfa1d961ff240586d4",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1762734944425,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 80.0999,
+            "range": "± 3.29432",
+            "unit": "ns",
+            "extra": "100 samples\n364 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 7.61881,
+            "range": "± 375.457",
             "unit": "us",
             "extra": "100 samples\n4 iterations"
           }

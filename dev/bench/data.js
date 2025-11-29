@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764450312518,
+  "lastUpdate": 1764450323331,
   "entries": {
     "Rust Benchmark": [
       {
@@ -101323,6 +101323,45 @@ window.BENCHMARK_DATA = {
           {
             "name": "fib/20",
             "value": 44844,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "3e5dfe3a44c1986191210036037cc01d302410b7",
+          "message": "validateUnit: For pull requests, use the url for head as \"previous\" uri\n\nThat is, a PR should check the non-pr API end point for the previous\nresult, from which we determine the unit to stick to.",
+          "timestamp": "2025-11-29T23:01:23+02:00",
+          "tree_id": "4dc13a44703022439779241c9891d5bdbc68376c",
+          "url": "https://github.com/nyrkio/change-detection/commit/3e5dfe3a44c1986191210036037cc01d302410b7",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1764450290840,
+        "tool": "julia",
+        "benches": [
+          {
+            "name": "fib/10",
+            "value": 354.62264150943395,
+            "unit": "ns",
+            "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":212,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
+          },
+          {
+            "name": "fib/20",
+            "value": 55042,
             "unit": "ns",
             "extra": "gctime=0\nmemory=0\nallocs=0\nparams={\"gctrial\":true,\"time_tolerance\":0.05,\"evals_set\":false,\"samples\":10000,\"evals\":1,\"gcsample\":false,\"seconds\":5,\"overhead\":0,\"memory_tolerance\":0.01}"
           }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764450296552,
+  "lastUpdate": 1764450312518,
   "entries": {
     "Rust Benchmark": [
       {
@@ -110468,6 +110468,45 @@ window.BENCHMARK_DATA = {
             "value": 42.93128362298012,
             "unit": "ns",
             "range": "± 0.039069787679579734"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "3e5dfe3a44c1986191210036037cc01d302410b7",
+          "message": "validateUnit: For pull requests, use the url for head as \"previous\" uri\n\nThat is, a PR should check the non-pr API end point for the previous\nresult, from which we determine the unit to stick to.",
+          "timestamp": "2025-11-29T23:01:23+02:00",
+          "tree_id": "4dc13a44703022439779241c9891d5bdbc68376c",
+          "url": "https://github.com/nyrkio/change-detection/commit/3e5dfe3a44c1986191210036037cc01d302410b7",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1764450302975,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Sample.Benchmarks.Fib10",
+            "value": 21.19672249372189,
+            "unit": "ns",
+            "range": "± 0.013317361791753442"
+          },
+          {
+            "name": "Sample.Benchmarks.Fib20",
+            "value": 43.150133724723545,
+            "unit": "ns",
+            "range": "± 0.06855323764862019"
           }
         ]
       }

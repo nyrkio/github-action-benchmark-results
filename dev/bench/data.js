@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764450323331,
+  "lastUpdate": 1764450337346,
   "entries": {
     "Rust Benchmark": [
       {
@@ -118125,6 +118125,40 @@ window.BENCHMARK_DATA = {
             "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "name": "thrpt",
             "value": 1968820502.6070344,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "3e5dfe3a44c1986191210036037cc01d302410b7",
+          "message": "validateUnit: For pull requests, use the url for head as \"previous\" uri\n\nThat is, a PR should check the non-pr API end point for the previous\nresult, from which we determine the unit to stick to.",
+          "timestamp": "2025-11-29T23:01:23+02:00",
+          "tree_id": "4dc13a44703022439779241c9891d5bdbc68376c",
+          "url": "https://github.com/nyrkio/change-detection/commit/3e5dfe3a44c1986191210036037cc01d302410b7",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1764450317055,
+        "tool": "jmh",
+        "benches": [
+          {
+            "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "name": "thrpt",
+            "value": 1936917411.4201858,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
           }

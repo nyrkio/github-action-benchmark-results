@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762861987060,
+  "lastUpdate": 1764450258630,
   "entries": {
     "Rust Benchmark": [
       {
@@ -66113,6 +66113,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000013595157445367068",
             "extra": "mean: 1.5975063794211113 msec\nrounds: 622"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "3e5dfe3a44c1986191210036037cc01d302410b7",
+          "message": "validateUnit: For pull requests, use the url for head as \"previous\" uri\n\nThat is, a PR should check the non-pr API end point for the previous\nresult, from which we determine the unit to stick to.",
+          "timestamp": "2025-11-29T23:01:23+02:00",
+          "tree_id": "4dc13a44703022439779241c9891d5bdbc68376c",
+          "url": "https://github.com/nyrkio/change-detection/commit/3e5dfe3a44c1986191210036037cc01d302410b7",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1764450248847,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 75937.32173095921,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000010549515684853708",
+            "extra": "mean: 13.168755194487005 usec\nrounds: 37299"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 607.4238428890138,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000012222965704685216",
+            "extra": "mean: 1.6462969172296982 msec\nrounds: 592"
           }
         ]
       }

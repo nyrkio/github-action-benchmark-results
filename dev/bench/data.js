@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771011347510,
+  "lastUpdate": 1771011363817,
   "entries": {
     "Rust Benchmark": [
       {
@@ -111101,6 +111101,45 @@ window.BENCHMARK_DATA = {
             "value": 43.042490248169216,
             "unit": "ns",
             "range": "± 0.020221144526709107"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "17e4d7c84b1c21bf92166a0a1d0dde22bd29298d",
+          "message": "fix: Double // in the final url causes backend to 404",
+          "timestamp": "2026-02-13T21:32:27+02:00",
+          "tree_id": "a3012999e74ba8dbeb1157e9679f7579dc336d06",
+          "url": "https://github.com/nyrkio/change-detection/commit/17e4d7c84b1c21bf92166a0a1d0dde22bd29298d",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1771011314099,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Sample.Benchmarks.Fib10",
+            "value": 19.014536242399895,
+            "unit": "ns",
+            "range": "± 0.01573256839863479"
+          },
+          {
+            "name": "Sample.Benchmarks.Fib20",
+            "value": 37.128406792879105,
+            "unit": "ns",
+            "range": "± 0.031981734419074606"
           }
         ]
       }

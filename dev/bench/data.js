@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771011332746,
+  "lastUpdate": 1771011347510,
   "entries": {
     "Rust Benchmark": [
       {
@@ -118748,6 +118748,40 @@ window.BENCHMARK_DATA = {
             "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
             "name": "thrpt",
             "value": 1923415042.4556935,
+            "unit": "ops/s",
+            "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "17e4d7c84b1c21bf92166a0a1d0dde22bd29298d",
+          "message": "fix: Double // in the final url causes backend to 404",
+          "timestamp": "2026-02-13T21:32:27+02:00",
+          "tree_id": "a3012999e74ba8dbeb1157e9679f7579dc336d06",
+          "url": "https://github.com/nyrkio/change-detection/commit/17e4d7c84b1c21bf92166a0a1d0dde22bd29298d",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1771011318490,
+        "tool": "jmh",
+        "benches": [
+          {
+            "testName": "org.openjdk.jmh.samples.JMHSample_01_HelloWorld.wellHelloThere",
+            "name": "thrpt",
+            "value": 1964923207.0263903,
             "unit": "ops/s",
             "extra": "iterations: 3\nforks: 1\nthreads: 1\nparams: "
           }

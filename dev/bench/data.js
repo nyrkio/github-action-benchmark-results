@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1771011281897,
+  "lastUpdate": 1771011295922,
   "entries": {
     "Rust Benchmark": [
       {
@@ -66432,6 +66432,47 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00013105104419685364",
             "extra": "mean: 1.5049402956261404 msec\nrounds: 663"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "distinct": true,
+          "id": "17e4d7c84b1c21bf92166a0a1d0dde22bd29298d",
+          "message": "fix: Double // in the final url causes backend to 404",
+          "timestamp": "2026-02-13T21:32:27+02:00",
+          "tree_id": "a3012999e74ba8dbeb1157e9679f7579dc336d06",
+          "url": "https://github.com/nyrkio/change-detection/commit/17e4d7c84b1c21bf92166a0a1d0dde22bd29298d",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1771011275638,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 71966.19256616072,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00000180366275408517",
+            "extra": "mean: 13.89541344820583 usec\nrounds: 28792"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 583.8768801770264,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000017162877697652095",
+            "extra": "mean: 1.7126898391606271 msec\nrounds: 572"
           }
         ]
       }

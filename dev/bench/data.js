@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775420261603,
+  "lastUpdate": 1775420273346,
   "entries": {
     "Rust Benchmark": [
       {
@@ -80013,6 +80013,45 @@ window.BENCHMARK_DATA = {
             "value": 23377.563093215438,
             "unit": "ns/iter",
             "extra": "iterations: 30027\ncpu: 23374.47780331035 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f1e26bea1b51177e5d4fe3f83dbc807410c4bc1d",
+          "message": "Merge pull request #12 from nyrkio/csv\n\nAdd experimental support for generic csv type",
+          "timestamp": "2026-04-05T23:15:41+03:00",
+          "tree_id": "f9778a0f45af825ea4b34f4f8180425bce88fd9a",
+          "url": "https://github.com/nyrkio/change-detection/commit/f1e26bea1b51177e5d4fe3f83dbc807410c4bc1d",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1775420221084,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 177.3817321124234,
+            "unit": "ns/iter",
+            "extra": "iterations: 3940795\ncpu: 177.36123015787427 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 22331.013488520428,
+            "unit": "ns/iter",
+            "extra": "iterations: 31360\ncpu: 22327.761957908166 ns\nthreads: 1"
           }
         ]
       }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775420214742,
+  "lastUpdate": 1775420228189,
   "entries": {
     "Rust Benchmark": [
       {
@@ -139393,6 +139393,47 @@ window.BENCHMARK_DATA = {
             "range": "± 284.152",
             "unit": "us",
             "extra": "100 samples\n3 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrik@nyrk.io",
+            "name": "Henrik Ingo",
+            "username": "henrikingo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f1e26bea1b51177e5d4fe3f83dbc807410c4bc1d",
+          "message": "Merge pull request #12 from nyrkio/csv\n\nAdd experimental support for generic csv type",
+          "timestamp": "2026-04-05T23:15:41+03:00",
+          "tree_id": "f9778a0f45af825ea4b34f4f8180425bce88fd9a",
+          "url": "https://github.com/nyrkio/change-detection/commit/f1e26bea1b51177e5d4fe3f83dbc807410c4bc1d",
+          "repo": "nyrkio/change-detection",
+          "repoUrl": "https://github.com/nyrkio/change-detection",
+          "branch": "master"
+        },
+        "date": 1775420218234,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 79.8324,
+            "range": "± 3.82701",
+            "unit": "ns",
+            "extra": "100 samples\n365 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 7.65224,
+            "range": "± 1.30817",
+            "unit": "us",
+            "extra": "100 samples\n4 iterations"
           }
         ]
       }
